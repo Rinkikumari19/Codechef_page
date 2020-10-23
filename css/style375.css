@@ -1,0 +1,740 @@
+@media only screen and (max-width: 415px){
+    .topnav{
+        margin-top: 2%;
+        height: 82px;
+    }
+
+    .email-img img{
+        margin-left: 21px;
+        height: 72%;
+        width: 20px;
+    }
+
+    .phone-img img{
+        padding-left: 11px;
+        height: 14px;
+        width: 15px;
+    }
+
+    .right-navbar span {
+        padding-left: 8px;
+        font-size: 3.35vw;
+    }
+
+    .right-navbar{
+        padding-top: 12px;
+    }
+    .left-navbar{
+        padding-right:11%;
+    }
+
+    .new-user button {
+        font-size: 3.5vw;
+        width: 120%;
+        height: 115%;
+        margin-top: 2px;
+        margin-left: 9px;
+        padding-left: 3px;
+    }
+    .new-user{
+        padding-top:13%;
+        margin-right: 28px;
+    }
+    .log-in {
+        font-size: 3.5vw;
+        padding-right: 12px;
+        margin-top: 11%;
+    }
+    .logos span{
+        margin-left: 5px;
+    }
+
+    .left-leave{
+        padding-left:48px;
+        margin-top: 6px;
+        width: 0%;
+    } 
+    
+    .left-nav2{
+        padding-right: 36.5%;
+        margin-top: 13%;
+    }
+    .left-nav2 a{
+        font-size: 4vw;
+        padding-right: 12.8%;
+        margin-top: 6%;
+    }
+     .right-nav2{
+        float: left;
+        padding-top: 2%;
+        padding-left: 7%;
+    }
+    .cc-img img{
+        padding: 1px;
+        border: 1px solid black;
+        position: absolute;
+        top: 111px;
+        width: 7.5%;
+    } 
+    .cc-img {
+        margin-left: 2px;
+    }
+    .left-leave img.l1 {
+        height: 16px;
+    }
+    .left-leave img {
+        padding-left: 7px;
+        height: 9px;
+    }
+    .left-leave img.crtf {
+        height: 10.8px;
+        padding-left: 6px;
+    }
+
+    .left-leave img.l2 {
+        height: 15px;
+        margin-left: -7px;
+    }
+
+    .left-leave img.cc {
+        margin-left: -5px;
+    }
+    .ds img{
+        position: absolute;
+        top: 157px;
+        width:63%;
+        margin-left: -6%;
+    }
+    .dots{
+        position: absolute;
+        top: 140px;
+        padding-left: 65.5%;
+    }
+    .dots img {
+        margin-left: -17.5px;
+    }
+    .topnav2{
+        border-bottom: 1px solid #eaeaea;
+        height: 151px;
+    } 
+
+
+
+
+    .dsa{
+        height: 628px;
+    }
+    .dsa img{
+        margin-top: -17px;
+        width: 39%;
+        padding-right: 0%;
+    }
+
+    .industry{ 
+        margin-left: 10%;
+        margin-right: 10.3%;
+    }
+    
+    .industry p{
+        font-size: 4.8vw;
+        letter-spacing: 1px;
+        line-height: 41px;
+        padding-top: 14px;
+        margin-left: -9px;
+        padding-right: 25px;
+        }
+
+    br {
+        display: none;
+      }
+    .industry h1{
+        padding-top: 40px;
+        line-height: 136%;
+        font-size: 9vw;
+        margin-bottom: 15px;
+        margin-left: -7px;
+
+    }
+    
+    .button{
+        padding-left: 40px;
+        padding-top: 34px;
+    }
+    .button p{
+        padding: 14px;
+        padding-right: 84px;
+        padding-left: 74px;
+        margin-top: 7px;
+        margin-left: -4px;
+    }
+ 
+    .time{
+        margin-top: 0%;
+        font-size: 3.8vw;
+        height: 127px;
+        width: 91%;
+        padding-left: 8.7%;
+        padding-top: 8px;
+    }
+
+
+    span.exam1{
+        padding-left: 0%;
+        line-height: 71px;
+        font-size: 16.3px;
+    }
+    span.date1{
+       
+        font-size: 5vw;
+        margin-left: 30%;
+        padding-left: 34px;
+    }
+    span.vertical-line {
+        border-left: 0px solid white;
+        margin: 0px 0px 0px 0px;
+    }
+    span.date2{
+       
+        padding-left: 44px;
+        font-size: 5vw;
+    }
+    
+
+    
+    .date2 a{
+        padding-left: 30px;
+        font-size: 25px;
+        padding-left: 80px;
+        font-size: 20px;
+    } 
+    
+
+    .certification{
+        height: 0%;
+        padding-bottom: 13%;
+        padding-top: 70px;
+        padding-right: 6%;
+    }
+    
+    .certification h1{
+        font-size: 9.7vw;
+        padding-right: 45px;
+        letter-spacing: -1px;
+        padding-top: 2.5px;
+    }
+    .certification p{
+        padding-left: 36px;
+        padding-right: 33px;
+        letter-spacing: 1px;
+        line-height: 36px;
+        font-size: 20px;
+        margin-top: -7.5px
+    } 
+    
+
+
+
+
+
+    .levels h1{
+        font-size: 9.5vw;
+        padding-top: 56px;
+        margin-left: -116%;
+    }
+   
+    .found a{
+        padding-left: 7%;
+        margin-right: 13px;
+        font-size: 4.5vw;
+        letter-spacing: 0.1vw;
+        margin-top: -9px;
+    }
+    .found{
+        padding-left: 0%;
+        margin-left: -43px;
+        font-size: 19px;
+    }
+    hr.red-line {
+        width: 27px;
+    }
+    .advance {
+        padding-top: 3px;
+    }
+    .expert{
+        padding-top: 3px;
+    }
+    .levels .level-prag{
+    
+        font-size: 4.75vw;
+        letter-spacing: 1.08px;
+        padding-top: 10.5%;
+        line-height: 36px;
+        margin-left: -51px;
+        padding-right: 12%;
+    }
+
+    .levels p{
+        font-size: 23px;
+        padding-left: 0%;
+        margin-left: -40px;
+        letter-spacing: 1.5px;
+        padding-top: 13.5%;
+        line-height: 32px;
+    }
+    .levels{
+        height: 1435px;
+        padding-left: 21.5%;
+        padding-right: 5%;
+    }
+    .levels h3{
+        font-size: 6vw;
+        padding-top: 73px;
+        letter-spacing: 1px;
+        margin-left: -51px;
+    
+    }
+    .right-side .p2{
+        font-size: 5.17vw;
+        padding-left: 0%;
+        letter-spacing: 1.5px;
+        margin-top: 52px;
+        margin-left: -52px;
+        padding-right: 4%;
+    }
+   
+    .right-side h4{
+        padding-left: 0%;
+        font-size: 5.5vw;
+        padding-top: 13px;
+        margin-left: -52px;
+        
+    }
+    .right-side .p3{
+        font-size: 5.4vw;
+        padding-left: 0%;
+        letter-spacing: 1px;
+        margin-left: -51px;
+        padding-top: 15%;
+    }
+    .right-side h3{
+        font-size: 5.3vw;
+        margin-left: -59%;
+        padding-top: 14px;
+        letter-spacing: 1.5px;
+    }
+     .yellow-box img{
+        display: none;
+    }
+    .p-img{
+        margin-left: -44px;
+        padding-top: 117px;
+        display: block;
+        width: 107%;
+    }
+   
+    .d-img{
+        display: none;
+    }
+    
+    .yellow-box del{
+        font-size: 28px;
+        margin-top: -70%;
+        right: 42%;
+    }
+    
+    .yellow-box h2{
+        font-size: 28px;
+        right: 41%;
+        margin-top: -57%;
+    }
+    .yellow-box .rs{
+        font-size: 27px;
+        padding-left: 14%;
+        margin-top: -58%;
+        letter-spacing: 2px;
+    }  
+    .yellow-box .pr{
+        right: 29%;
+        margin-top: -155px;
+        letter-spacing: 2px;
+        font-size: 27px;
+    }
+    .yellow-box .dp{
+        right: 25%;
+        margin-top: -111px;
+        font-size: 25px;
+    } 
+    .rupees h3{   
+        margin-top: -97%;
+        font-size: 6.2vw;
+        padding-left: 47.5%;
+        color: #34404B;
+        letter-spacing: 0.5px;
+        position: absolute;
+    }
+    .rupees del{
+        font-size: 6.5vw;
+        padding-left: 4.1%;
+        margin-top: -66%;
+        color: #34404B;
+        position: absolute;
+    }
+    .rupees p b{
+        font-size: 6.1vw;
+        padding-left: 10%;
+        position: absolute;
+        margin-top: -18%;
+    } 
+
+    .rupees p {
+        text-align: center;
+        font-size: 6vw;
+        padding-left:5.3%;
+        letter-spacing: 1px;
+        line-height: 212%;
+        position: absolute;
+        margin-top: -58%;
+        width : 61%
+    } 
+
+    .button2{
+        padding-left: 0%;
+        padding-top: 36px;
+    }
+    
+    .button2 p{
+        padding: 10px;
+        padding-right: 74px;
+        padding-left: 75px;
+        font-size: 19.5px;
+        letter-spacing: 1px;
+    }
+    .yellow-box h3 b{
+        left: 7%;
+        margin-top: -102%;
+        font-size: 25px;
+    }    
+    .testimonials {
+        height: 862px;
+    }
+
+    .testimonials h2 {
+        font-size: 10.3vw;
+        letter-spacing: -2px;
+        margin-right: 31%;
+        margin-top: -8%;
+    }
+
+    .testimonials .p4{
+        text-align: -webkit-match-parent;
+        font-size: 5.5vw;
+        letter-spacing: 0.8px;
+        padding-top: 19px;
+        padding-left: 47px;
+        padding-right: 12%;
+        line-height: 146%;
+    }
+    .ccdsap{
+        width: 56.6%;
+        background-color: rgba(255, 255, 255, 0.787);
+        margin-left: -0.3%;
+        padding-left: 43%;
+        margin-top: 12%;
+        border: 1px solid #c3bdbd;
+        height: 65.5%;
+        box-shadow: 3px 17px 12px -22px;
+    
+    }
+    .img {
+        background-color: rgb(228, 225, 225);
+        float: left;
+        width: 55%;
+        height: 100%;
+        margin-left: -90.5%;
+        color: #34404B;
+    }
+    .ccdsap .mid-cont {
+        font-size: 4.2vw;
+        padding-right: 19%;
+        margin-left: -15.5vw;
+        padding-top: 14%;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+    
+    .img img {
+        left: 8%;
+        margin-top: 167px;
+        margin-top: 77.5%;
+        width: 30%;
+        height: 30%;
+    
+    }
+    .ccdsap h3 {
+        margin-left: 2%;
+        font-size: 5.7vw;
+        padding-top: 59px;
+    }
+    .l2-cont p{
+        font-size: 4.6vw;
+        letter-spacing: 1.5px;
+        margin-left: 2%;
+        margin-top: -4.5%;
+        line-height: 138%;
+    }
+  
+    .last-cont p {
+        font-size: 4vw;
+        margin-left: 3%;
+        letter-spacing: 1.2px;
+        margin-top: 7%;
+    }
+    
+    .line {
+        height: 0px;
+        width: 74%;
+        margin-left: 3%;
+        margin-top: 9%;
+    }
+ 
+    .double-quote img {
+        margin-top: -84%;
+        margin-left: -14%;
+        height: 13%;
+    }
+    .last-cont img {
+        height: 5%;
+        width: 18%;
+        padding-left: 17%;
+        margin-top: 0.5%;
+    }
+    .arrow-l img {
+        margin-top: -61%;
+        height: 9%;
+        width: 12%;
+        margin-left: -22.5%;
+    }
+    .arrow-r img {
+        margin-top: -61%;
+        height: 9%;
+        width: 12%;
+        margin-left: 58%;
+    }
+
+
+
+
+    .certified-users h1 {
+        font-size: 37px;
+        letter-spacing: 0.4px;
+        padding-top: 13.5%;
+        padding-left: 40px;
+        text-align: -webkit-left;
+
+    }
+    .lorem{
+        display: none;
+    }
+    .posters {
+        display: block;
+        padding-top: 17%;
+        margin-bottom: 22.5%;
+        margin-left: 16%;
+        margin-right: 14%;
+        padding-left: 3%;
+    }
+    .all-posters{
+        display: none;
+    }
+   
+    .neha-img{
+        margin-bottom: 75px;
+        margin-left: 0px;
+        height: 394px;
+    }
+    .neha-img img {
+        margin-left: 49px;
+        width: 49%;
+        margin-top: -4px;
+    }
+    .neha-img p {
+        font-size: 19px;
+        margin-left: 19%;
+        margin-top: -1%;
+    }
+    .neha-img h3{
+        margin-top: 17.2%;
+        margin-left: 49px;
+    }
+    .neha-img .dots1 img{
+        margin-left: 8%;
+        margin-top: 4%;
+    }
+    .line1 {
+        margin-top: 7.5%;
+    }
+    .l-line p {
+        padding-left: 2px;
+        font-size: 21px;
+        padding-top: 18px;
+    }
+
+
+
+    .footer p {
+        margin-top: -9%;
+        font-size: 113%;
+        padding-left: 39%;
+        padding-right: 39%;
+    }
+    .logos {
+        padding-left: 26.3%;
+        padding-right: 26%;
+       height: 57px;
+       margin-top: 0%;
+    }
+    .logos img {
+        margin-left: 16.5px;
+        height: 38%;
+        margin-top: 1%;
+    }
+
+
+
+
+
+
+    .l-nav a{
+        padding: 27%;
+        font-size: 3.6vw;
+        line-height: 34.4px; 
+        margin-left: 3.5%;
+    }
+    
+    .l-nav{
+        padding-left: 25%;
+        padding-right: 25%;
+        margin-top: 16%;
+    }
+    
+    a.cc-dsa{
+        font-size: 15px;
+        position: absolute;
+        margin-left: -11.7%;
+        margin-top: -36.7%;
+    }
+
+    a.ho{
+        color: #ff5912;
+    }
+    .l-dots img{
+        padding-left: 44%;
+        height: 6px;
+        position: absolute;
+        margin-top: -183px;
+    
+    }
+    
+    hr.thin-line {
+        display: none;
+    }
+    
+    .codechef{
+        padding-left: 36.8%;
+        padding-right: 37%;
+        margin-top: 0.5%;
+    }
+    
+    .codechef a{
+        padding-left: 4%;
+        font-size: 15.2px;
+        letter-spacing: 0.3px;
+        line-height: 34.99px;
+    }
+
+    .cc img{
+        margin-left: -2px;
+        padding-top: 50px;
+        width: 70%;
+    }
+    
+    .pm b{
+        position: absolute;
+        margin-left: -28.7%;
+        margin-top: 25%;
+        font-size: 4.2vw;
+    }
+    .amex img{
+        width: 180%;
+        padding-top: 105%;
+        margin-left: -50%;
+        padding-bottom: 71%;
+    }    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 411px){
+    .new-user {
+        margin-right: 26px;
+    }
+    .dots {
+        padding-left: 65.5%;
+    }
+}
+    
+
+
+
+@media only screen and (max-width: 320px){
+    .new-user {
+        margin-right: 4px;
+    }
+    .dots {
+        padding-left: 65.5%;
+        
+    }
+    .dsa {
+        height: 618px;
+    }
+    .all-posters{
+        padding-left: 0%;
+        margin-left: 10%;
+    }
+}
+  
+
+
+@media only screen and (max-width: 360px){
+    .dsa {
+        height: 646px;
+    }
+    .new-user{
+        margin-right: 13px;
+    }
+    .dots img{
+        margin-left: -21%;
+    }
+}
+
+
+
+@media only screen and (max-width: 375px){
+    .dsa {
+        height: 656px;
+    }
+    .new-user {
+        margin-right: 16px;
+    }
+    .dots img {
+        margin-left: -9px;
+    }
+}
+@media only screen and (max-width: 411px){
+    .dsa {
+        height: 680px;
+    }
+}
