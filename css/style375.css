@@ -42,27 +42,13 @@
         margin-right: 33px;
         padding-bottom: 0.7px;
     }
-    /* .new-user button {
-        font-size: 3.14vw;
-        width: 129%;
-        height: 114%;
-        margin-top: 2px;
-        margin-left: 7px;
-        padding-left: 0px;
-        padding-right: 3px;
-    }
-    .new-user{
-        padding-top:12%;
-        margin-right: 30px;
-    } */
+   
     .log-in {
         font-size: 3.3vw;
         padding-right: 13.62px;
         margin-top: 11%;
     }
-    /* .log-in span{
-        margin-right: 1px;
-    } */
+    
     .logos span{
         margin-left: 5px;
     }
@@ -74,7 +60,6 @@
     } 
     
     .left-nav2{
-        /* padding-right: 36.5%; */
         margin-top: 13%;
     }
     .left-nav2 a{
@@ -87,15 +72,7 @@
         padding-top: 2%;
         padding-left: 7.5%;
     }
-    /* .cc-img img{
-        padding: 1px;
-        border: 1px solid black;
-        position: absolute;
-        top: 112px;
-        width: 7.5%;
-        margin-left: 1px;
-        height: 32.7px;
-    }  */
+   
     .cc-img img{
         padding: 1px;
         border: 1px solid black;
@@ -771,10 +748,7 @@
     }
 
 
-/* 
-    .last-dot{
-        display: block;
-    } */
+
 
     .l-nav a{
         padding: 27%;
@@ -853,7 +827,7 @@
     .codechef{
         padding-left: 36.8%;
         padding-right: 37%;
-        /* margin-top: -0.3%; */
+       
     }
     
     .codechef a{
@@ -892,7 +866,7 @@
 
 
 
-@media only screen and (max-width: 411px){
+/* @media only screen and (max-width: 411px){
     .new-user {
         margin-right: 26px;
     }
@@ -952,4 +926,4 @@
     .dsa {
         height: 680px;
     }
-}
+}  */
