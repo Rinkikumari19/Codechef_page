@@ -25,7 +25,7 @@
                     <span>Log-in</span>
                 </div>
                 <div class="new-user">
-                    <button type="button"> New user</button>
+                    <button type="button"> New User</button>
                 </div>
             </div>
         </div>
@@ -51,9 +51,9 @@
                 <a class='home'>Home
                     <hr class="hr-bar">
                 </a>
-                <a>About</a>
-                <a>Levels</a>
-                <a>Detalis</a>
+                <a class='about'>About</a>
+                <a class="lev">Levels</a>
+                <a class='det'>Details</a>
                 <a class='help'>Help</a>
             </div>
         </div> 
@@ -75,11 +75,16 @@
 
         <div class="time">
             <span class='exam1'>Exam Date</span>
+            <div class="mar"> 
+                <p>31 Mar 2019</p>
+            </div>
             <span class='date1'>31 Mar 2019 </span>
             <span class='vertical-line'> </span>
             <span class='exam2'>Last Date of Registration </span>
             <span class='date2'>18 Mar 2019</span>
+
         </div> 
+        
 
 
         <div class='certification'>
@@ -115,8 +120,18 @@
                 <img class='p-img' src='Assets/Path -1.svg'>
                 <img class='d-img' src='Assets/Path 1381.svg'>                  
                 <div class="rupees">
-                    <del> Rs. 3,500/-</del>
-                    <p><b>Rs.2,500/-</b> &nbsp; &nbsp; Discounted price <br>Avail between 25 Sept - 21 Oct</p>
+                    <span class="cut">Rs. 3,500/-</span>
+                    <!-- <del> Rs. 3,500/-</del> -->
+                    <p><b>Rs.2,500/-</b> &nbsp; &nbsp; Discounted price</p>
+                    <p class="a-between">Avail between 25 Sept - 21 Oct</p>
+                    <h3><b>Course Price</b></h3>
+                </div>
+                <!-- this is for mobile -->
+
+                <div class="rupees1">
+                    <p class="cut">Rs. 3,500/-</p>
+                    <p><b>Rs.2,500/-</b> &nbsp; &nbsp; Discounted price</p>
+                    <h4>Avail between 25 Sept - 21 Oct</h4>
                     <h3><b>Course Price</b></h3>
                 </div>
                 <div class="button2">
@@ -142,7 +157,7 @@
                     companies in India. CCDSAP gave my talent and
                     hard work the opportunity to with the top tech
                     companies in India.
-                    <h3>Amit jha</h3>
+                    <h3>Amit Jha</h3>
                 </p>
                 <div class='double-quote'>
                     <img src='double-quote.svg'>
@@ -152,23 +167,58 @@
                 </div>
                 <div class='last-cont'>
                     <p><em>Foundation Certified</em></p>
-                    <img src='dot.svg'>
+                    <div class="test-dot">
+                        <span class="dot1 blue"></span>
+                        <span class="dot1 grey"></span>
+                        <span class="dot1 grey"></span>
+                        <span class="dot1 grey"></span>
+                    </div>
                 </div>
+              
+
+
+
                 <div class="arrow-r">
-                    <img src='Assets/Arrow-Next.svg'> 
-
-
+                    <img class="right_arrow" src="Assets/Arrow-Next.svg" alt="right arrow">
+                    <img class="mob_r_arrow" src="Assets/left_arrow.svg" alt="right arrow">
                 </div>
                 <div class="arrow-l">
-                    <img src='Assets/Arrow-Previous.svg'>
+                    <img class="left_arrow" src="Assets/Arrow-Previous.svg" alt="right arrow">
+                    <img class="mob_l_arrow" src="Assets/right_arrow.svg" alt="left mobile arrow">
                 </div>
-                <div class="ls-img">
-                    <img src='left-img.svg'>
-                </div> 
-                <!-- <div class="rs-img">
-                    <img src='image.svg'>
-                </div> -->
+                <div class="ls-card">
+                    <h4>hard work the
+                        h the top tech
+                        gave my
+                        portunity to
+                        <p></p>
+                        <div class="left-dot">
+                            <span class="dot-l blue"></span>
+                            <span class="dot-l yellow"></span>
+                            <span class="dot-l orangered"></span>
+                            <span class="dot-l red"></span>
+                        </div>
 
+                    </h4>
+                </div> 
+
+                <div class="right-card">
+                    <div  class="right-img">
+                        <img src="Assets/Group -2.svg" alt="right-card">
+                    </div> 
+                   
+                    <img class="double-quote2" src="double-quote.svg">
+                    <h4 class="r-p" >
+                        CCDSAP
+                        opportu
+                        compani
+                        talent a  
+                    </h4>
+                    <h5 class="r-p">Neha Gup</h5>
+                    <h6 class="r-p">Software </h6>
+                    <p class="r-p"></p>
+                    <h3 class="r-p">Foundatio</h3>   
+                </div> 
             </div>
         </div>
 
@@ -178,113 +228,145 @@
             <h1> Certified users </h1>
             <p class='lorem'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             <div class='all-posters'>
-                <div class='neha-img'>
-                    <img src='Assets/Group -2.svg'>
-                    <h3>Neha Gupta</h3>
-                    <p>Software Engineer </p>
-                    <span>Swiggy<hr class="line1"></span>
-                    <div class='l-line'>
-                        <p class="ac">Advanced Certified</p>
-                    </div>               
-                    <div class="dots1">
-                        <img src='dots.svg'>
+                <!-- This is for desktop -->
+                <div class="s-four-cards">
+                    <div class='neha-img'>
+                        <img src='Assets/Group -2.svg'>
+                        <h3>Neha Gupta</h3>
+                        <p>Software Engineer </p>
+                        <span>Swiggy<hr class="line1"></span>
+                        <div class='l-line'>
+                            <p class="ac">Advanced Certified</p>
+                        </div>               
+                        <div class="circle">
+                            <span class="dot blue"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot orangered"></span>
+                            <span class="dot red"></span>
+                        </div>
+                    </div>
+
+                    <div class='neha-img'>
+                        <img src='Assets/Group 2137.svg'>
+                        <h3>Ashok Pritam</h3>
+                        <p>Software Engineer </p>
+                        <span>Directi<hr class="line1"></span>
+                        <div class='l-line'>
+                            <p class="ac">Advanced Certified</p>
+                        </div>               
+                        <div class="circle">
+                            <span class="dot blue"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot orangered"></span>
+                            <span class="dot grey"></span>
+                        </div>
+                    </div>
+
+                    <div class='neha-img'>
+                        <img src='Assets/Group -1.svg'>
+                        <h3>Rohit Bansal</h3>
+                        <p>Software Engineer </p>
+                        <span>Directi<hr class="line1"></span>
+                        <div class='l-line'>
+                            <p class="ac">Advanced Certified</p>
+                        </div>               
+                        <div class="circle">
+                            <span class="dot blue"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot orangered"></span>
+                            <span class="dot red"></span>
+                        </div>
+                    </div>
+
+                    <div class='neha-img'>
+                        <img src='Assets/Rectangle 1966.svg'>
+                        <h3>Amit Chandra</h3>
+                        <p>Software Engineer </p>
+                        <span>Sharechat<hr class="line1"></span>
+                        <div class='l-line'>
+                            <p class="fc">Foundation Certified</p>
+                        </div>               
+                        <div class="circle">
+                            <span class="dot blue"></span>
+                            <span class="dot grey"></span>
+                            <span class="dot grey"></span>
+                            <span class="dot grey"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-four-cards">
+                    <div class='neha-img'>
+                        <img src='Assets/Group -5.svg'>
+                        <h3>Rohit Makhana</h3>
+                        <p>Software Engineer </p>
+                        <span>Paytm<hr class="line1"></span>
+                        <div class='l-line'>
+                            <p class="fc">Foundation Certified</p>
+                        </div>               
+                        <div class="circle">
+                            <span class="dot blue"></span>
+                            <span class="dot grey"></span>
+                            <span class="dot grey"></span>
+                            <span class="dot grey"></span>
+                        </div>
+                    </div>
+
+                    <div class='neha-img'>
+                        <img src='Assets/Group -4.svg'>
+                        <h3>Mita Roy</h3>
+                        <p>Software Engineer </p>
+                        <span>Directi<hr class="line1"></span>
+                        <div class='l-line'>
+                            <p class="ac">Advanced Certified</p>
+                        </div>               
+                        <div class="circle">
+                            <span class="dot blue"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot orangered"></span>
+                            <span class="dot grey"></span>
+                        </div>
+                    </div>
+
+                    <div class='neha-img'>
+                        <img src='Assets/Screen Shot 2019-03-14 at 10.05.17 PM.svg'>
+                        <h3>Rohit Bansal</h3>
+                        <p>Software Engineer </p>
+                        <span>Directi<hr class="line1"></span>
+                        <div class='l-line'>
+                            <p class="ac">Advanced Certified</p>
+                        </div>               
+                        <div class="circle">
+                            <span class="dot blue"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot orangered"></span>
+                            <span class="dot red"></span>
+                        </div>
+                    </div>
+
+                    <div class='neha-img'>
+                        <img src='Assets/Group -6.svg'>
+                        <h3>Amit Chandra</h3>
+                        <p>Software Engineer </p>
+                        <span>Sharechat<hr class="line1"></span>
+                        <div class='l-line'>
+                            <p class='fc'>Foundation Certified</p>
+                        </div>               
+                        <div class="circle">
+                            <span class="dot blue"></span>
+                            <span class="dot grey"></span>
+                            <span class="dot grey"></span>
+                            <span class="dot grey"></span>
+                        </div>
                     </div> 
                 </div>
-
-                <div class='neha-img'>
-                    <img src='Assets/Group 2137.svg'>
-                    <h3>Ashok Pritam</h3>
-                    <p>Software Engineer </p>
-                    <span>Directi<hr class="line1"></span>
-                    <div class='l-line'>
-                        <p class="ac">Advanced Certified</p>
-                    </div>               
-                    <div class="dots1">
-                        <img src='dots2.svg'>
-                    </div> 
-                </div>
-
-                <div class='neha-img'>
-                    <img src='Assets/Group -1.svg'>
-                    <h3>Rohit Bansal</h3>
-                    <p>Software Engineer </p>
-                    <span>Directi<hr class="line1"></span>
-                    <div class='l-line'>
-                        <p class="ac">Advanced Certified</p>
-                    </div>               
-                    <div class="dots1">
-                        <img src='dots.svg'>
-                    </div> 
-                </div>
-
-                <div class='neha-img'>
-                    <img src='Assets/Rectangle 1966.svg'>
-                    <h3>Amit Chandra</h3>
-                    <p>Software Engineer </p>
-                    <span>Sharechat<hr class="line1"></span>
-                    <div class='l-line'>
-                        <p class="ac">Foundation Certified</p>
-                    </div>               
-                    <div class="dots1">
-                        <img src='dots3.svg'>
-                    </div> 
-                </div>
-
-                <div class='neha-img'>
-                    <img src='Assets/Group -5.svg'>
-                    <h3>Rohit Makhana</h3>
-                    <p>Software Engineer </p>
-                    <span>Paytm<hr class="line1"></span>
-                    <div class='l-line'>
-                        <p class="ac">Foundation Certified</p>
-                    </div>               
-                    <div class="dots1">
-                        <img src='dots3.svg'>
-                    </div> 
-                </div>
-
-                <div class='neha-img'>
-                    <img src='Assets/Group -4.svg'>
-                    <h3>Mita Roy</h3>
-                    <p>Software Engineer </p>
-                    <span>Directi<hr class="line1"></span>
-                    <div class='l-line'>
-                        <p class="ac">Advanced Certified</p>
-                    </div>               
-                    <div class="dots1">
-                        <img src='dots2.svg'>
-                    </div> 
-                </div>
-
-                <div class='neha-img'>
-                    <img src='Assets/Screen Shot 2019-03-14 at 10.05.17 PM.svg'>
-                    <h3>Rohit Bansal</h3>
-                    <p>Software Engineer </p>
-                    <span>Directi<hr class="line1"></span>
-                    <div class='l-line'>
-                        <p class="ac">Advanced Certified</p>
-                    </div>               
-                    <div class="dots1">
-                        <img src='dots.svg'>
-                    </div> 
-                </div>
-
-                <div class='neha-img'>
-                    <img src='Assets/Group -6.svg'>
-                    <h3>Amit Chandra</h3>
-                    <p>Software Engineer </p>
-                    <span>Sharechat<hr class="line1"></span>
-                    <div class='l-line'>
-                        <p class='ac'>Foundation Certified</p>
-                    </div>               
-                    <div class="dots1">
-                        <img src='dots3.svg'>
-                    </div> 
-                </div>
-
             </div>
         </div> 
 
+
+
+
+
+        <!-- This is for mobile -->
         <div class='posters'>
             <div class='neha-img'>
                 <img src='Assets/Group -2.svg'>
@@ -293,11 +375,15 @@
                 <span>Swiggy<hr class="line1"></span>
                 <div class='l-line'>
                     <p class="ac">Advanced Certified</p>
-                </div>               
-                <div class="dots1">
-                    <img src='dots.svg'>
-                </div> 
+                </div>   
+                <div class="circle">
+                    <span class="dot blue"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot orangered"></span>
+                    <span class="dot red"></span>
+                </div>
             </div>
+
 
             <div class='neha-img'>
                 <img src='Assets/Group 2137.svg'>
@@ -307,9 +393,12 @@
                 <div class='l-line'>
                     <p class="ac">Advanced Certified</p>
                 </div>               
-                <div class="dots1">
-                    <img src='dots2.svg'>
-                </div> 
+                <div class="circle">
+                    <span class="dot blue"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot orangered"></span>
+                    <span class="dot grey"></span>
+                </div>
             </div>
 
             <div class='neha-img'>
@@ -319,10 +408,13 @@
                 <span>Directi<hr class="line1"></span>
                 <div class='l-line'>
                     <p class="ac">Advanced Certified</p>
-                </div>               
-                <div class="dots1">
-                    <img src='dots.svg'>
-                </div> 
+                </div>  
+                <div class="circle">
+                    <span class="dot blue"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot orangered"></span>
+                    <span class="dot red"></span>
+                </div>             
             </div>
 
             <div class='neha-img'>
@@ -333,9 +425,12 @@
                 <div class='l-line'>
                     <p class="ac">Foundation Certified</p>
                 </div>               
-                <div class="dots1">
-                    <img src='dots3.svg'>
-                </div> 
+                <div class="circle">
+                    <span class="dot blue"></span>
+                    <span class="dot grey"></span>
+                    <span class="dot grey"></span>
+                    <span class="dot grey"></span>
+                </div>
             </div>
 
             <div class='neha-img'>
@@ -346,9 +441,12 @@
                 <div class='l-line'>
                     <p class="ac">Advanced Certified</p>
                 </div>               
-                <div class="dots1">
-                    <img src='dots2.svg'>
-                </div> 
+                <div class="circle">
+                    <span class="dot blue"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot orangered"></span>
+                    <span class="dot grey"></span>
+                </div>
             </div>
             
             <div class='neha-img'>
@@ -358,10 +456,13 @@
                 <span>Directi<hr class="line1"></span>
                 <div class='l-line'>
                     <p class="ac">Advanced Certified</p>
-                </div>               
-                <div class="dots1">
-                    <img src='dots.svg'>
-                </div> 
+                </div>   
+                <div class="circle">
+                    <span class="dot blue"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot orangered"></span>
+                    <span class="dot red"></span>
+                </div>            
             </div>
 
             <div class='neha-img'>
@@ -372,9 +473,12 @@
                 <div class='l-line'>
                     <p class="ac">Foundation Certified</p>
                 </div>               
-                <div class="dots1">
-                    <img src='dots3.svg'>
-                </div> 
+                <div class="circle">
+                    <span class="dot blue"></span>
+                    <span class="dot grey"></span>
+                    <span class="dot grey"></span>
+                    <span class="dot grey"></span>
+                </div>
             </div>
 
             <div class='neha-img'>
@@ -385,19 +489,14 @@
                 <div class='l-line'>
                     <p class='ac'>Foundation Certified</p>
                 </div>               
-                <div class="dots1">
-                    <img src='dots3.svg'>
-                </div> 
+                <div class="circle">
+                    <span class="dot blue"></span>
+                    <span class="dot grey"></span>
+                    <span class="dot grey"></span>
+                    <span class="dot grey"></span>
+                </div>
             </div>
-
         </div>
-
-
-
-
-
-
-
 
 
 
@@ -405,34 +504,44 @@
         <div class='footer'>
             <p>Follow us</p>
             <div class='logos'>
-                <img src='Assets/facebook.svg'>
-                <img src='Assets/twitter.svg'>
-                <img src='Assets/google +.svg'>
-                <img src='Assets/instegram.svg'>
+                <img class='fb' src='Assets/facebook.svg'>
+                <img class='twi' src='Assets/twitter.svg'>
+                <img class='google' src='Assets/google +.svg'>
+                <img class='instra' src='Assets/instegram.svg'>
             </div>
             <div class='l-nav'>
                 <a class='cc-dsa'><b>CC DSA</b></a>
+                <div class="last-dot">
+                    <span class="dot2 blue"></span>
+                    <span class="dot2 yellow"></span>
+                    <span class="dot2 orangered"></span>
+                    <span class="dot2 red"></span>
+                </div>
+
                 <a class='ho'>Home</a>
-                <a>About</a>
-                <a>Level</a>
-                <a>Detail</a>
-                <a>Help</a>
+                <a class="ab">About</a>
+                <a class="lev2">Level</a>
+                <a class='det'>Detail</a>
+                <a class="help">Help</a>
             </div>
+                
             <div class='l-dots'>
-                <img src='dots.svg'>
+               
                 <hr class="thin-line">
             </div>
             <div class='codechef'>
                 <a class='cc'><img src='codechef.svg'></a>
-                <a>Practise </a>
-                <a>Compete </a>
-                <a>Discuss </a>
-                <a>Collaborate  </a>
-                <a>Initiatives </a>
-                <a>Community </a>
+                <a class="prac">Practise </a>
+                <a class="com">Compete </a>
+                <a class="dis">Discuss </a>
+                <a class="coll">Collaborate  </a>
+                <a class="init">Initiatives</a>
+                <a class="commu">Community </a>
                 <a class='pm'><b>Payment Methods</b></a>
                 <a class='amex'><img src='Assets/Payment Images.svg'></a>
             </div> 
+            
+
            
         </div>
     </div>
