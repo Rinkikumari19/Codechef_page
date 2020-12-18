@@ -7,20 +7,18 @@
     margin-top: 2%;
     border-bottom: 1px solid #eaeaea;
     height: 46px;
+    color: #34404B;
 }
 .right-navbar{
     display: -webkit-inline-flex;
-    padding-left: 6.2%;
+    padding-left: 7.4%;
 }
 .email-img img{
-    margin-left: 22px;
     height: 12px;
 }
 .right-navbar span{
     padding-left: 6.5px;
     font-size: 14px;
-    color: #34404B;
-
 }
 .phone-img{
     margin-left: 2px;
@@ -47,16 +45,12 @@
     height: 39.5px;
     background-color: white;
     padding-left: 9px;
-    color: #34404B;
     letter-spacing: 0.3px;
 }
 .log-in{
     font-size: 16px;
     padding-right: 30px;
-    color: #34404B;
 }
-
-
 
 
 .left-nav2{
@@ -102,9 +96,7 @@ hr.hr-bar {
 .left-nav2 a.about {
     padding-right: 42px;
 }
-.left-nav2 a.home {
-    padding-right: 40px;
-}
+
 .cc-img img {
     padding: 9.5%;
     border: 1px solid #707070;
@@ -112,9 +104,6 @@ hr.hr-bar {
     padding-top: 8px;
     height: 42.3px;
 }
-
-
-
 
 .cc-img {
     float: left;
@@ -166,9 +155,7 @@ hr.hr-bar {
     margin-top: -1px;
 }
 .topnav2{
-    border-bottom: 1px solid #eaeaea;
     height: 114px;
-    font-family: "ubuntu", sans-serif;
 }
 
 
@@ -179,7 +166,7 @@ hr.hr-bar {
 .industry{
     margin-left: 19.1%;
     margin-right: 18.3%;
-    font-family: "ubuntu", sans-serif;
+    color: #34404B;
 }
 .industry p{
     font-size: 1.552vw;
@@ -193,18 +180,15 @@ hr.hr-bar {
     font-size: 2.99vw;
     margin-bottom: 15px;
     letter-spacing: -0.3px;
-    color: #34404B;
     word-spacing: -1px;
 }
 .button{
     padding-left: 19.17%;
-    padding-top: 63px;
+    padding-top: 64px;
 }
 .button button{
     border: none;
-    margin-top: 1px;
 }
-
 
 .button p{
     padding: 16px;
@@ -228,15 +212,9 @@ hr.hr-bar {
     font-size: 23px;
     background-color: #2F2F2F;
     color: white;
-    font-family: "ubuntu", sans-serif;
     height: 50px;
     padding-top: 18px;
-    padding-left: 12%;
-}
-
-
-span.exam1{
-    padding-left: 8.2%;
+    padding-left: 19.3%;
 }
 span.date1{
     padding-left: 20px;
@@ -257,19 +235,13 @@ span.vertical-line{
     border-left: 1px solid white;
     margin: 23px 53px 23px 50px;
     border-bottom-style: solid;
-
 }
 
 
-
-
 .certification{
-    
     background-color: #e7e6e6;
-    width: auto;
     height: 425px;
     padding-top: 95.5px;
-    font-family: "ubuntu", sans-serif;
 }
 .certification h1{
     text-align: center;
@@ -277,7 +249,6 @@ span.vertical-line{
     font-weight: unset;
     letter-spacing: 0.09px;
     padding-left: 19px;
-    
 }
 .certification p{
     padding-left: 19.4%;
@@ -294,24 +265,18 @@ span.vertical-line{
     font-size: 3vw;
     padding-top: 71px;
     font-weight: unset;
-    font-family: "ubuntu", sans-serif;
     padding-left: 60px;
-    color: #34404B;
 }
 .found{
     padding-left: 12%;
-    color: #34404B;
     font-size: 1.2vw;
     padding-top: 29.5px;
     display: -webkit-inline-flex;
-    font-family: "ubuntu", sans-serif;
-    letter-spacing: 0.3px;
 }
 
 .found a{
     padding-left: 39%;
 }
-
 
 hr.red-line {
     width: 22px;
@@ -339,29 +304,23 @@ hr.red-line {
     margin-top: -3px;
 }
 .levels .level-prag{
-    
     font-size: 1.25vw;
     letter-spacing: 1.08px;
     padding-top: 5%;
     line-height: 41px;
     margin-left: -24px;
-    color: #34404B;
-    
-
 }
 .levels{
     padding-left: 20.5%;
     padding-right: 23%;
     height: 1040px;
-    font-family: "ubuntu", sans-serif;
+    color: #34404B;
 }
 .levels h3{
     font-size: 1.3vw;
     padding-top: 36px;
     letter-spacing: 0.7px;
     margin-left: -2.2%;
-    color: #34404B;
-
 }
 .right-side .p2{
     font-size: 1.25vw;
@@ -369,7 +328,6 @@ hr.red-line {
     letter-spacing: 1.07px;
     padding-top: 44px;
     line-height: 35px;
-    color: #34404B;
 }
 .right-side{
     margin-top: -75px;
@@ -381,15 +339,12 @@ hr.red-line {
     padding-top: 10px;
     letter-spacing: 0.8px;
     color: #FF5912;
-
 }
 .right-side .p3{
     font-size: 1.25vw;
-    color: #34404B;
-    padding-left: 47%;
+    padding-left: 40.2%;
     letter-spacing: 1.1px;
     padding-top: 41px;
-    margin-left: -6.8%;
 }
 .right-side h3{
     padding-left: 42.8%;
@@ -409,32 +364,17 @@ hr.red-line {
     padding-top: 37px;
 }
 
-
-
 .cut{
     font-size: 26.5px;
     position: absolute;
     margin-left: 26.1%;
     margin-top: -38px;
 }
-.cut::before {
-    content: '';
-    position: absolute;
-    left: 83px;
-    top: 76px;
-    bottom: 20px;
-    width: 52%;
-    background: linear-gradient(to left top, transparent 47.5%, currentColor 52.5%, currentColor 55.5%, transparent 42.5%);
-}
-
-
-
 
 .rupees p{
     font-size: 1.4vw;
     padding-left: 46.19%;
     letter-spacing: 1px;
-    color: #34404B;
     line-height: 212%;
     margin-top: -13%;
 }
@@ -453,7 +393,6 @@ p.a-between{
     letter-spacing: 0.5px;
 }
 
-
 .button2{
     padding-left: 40.6%;
     padding-top: 14.6%;
@@ -471,41 +410,29 @@ p.a-between{
 .button2 button{
     border: none;
 }
-.yellow-box h3 b{
-    position: absolute;
-    left: 19%;
-    margin-top: -6%;
-    font-size: 23px;
-    color: black;
+
+.certified-users{
+    color: #34404B; 
 }
-
-
-
-
-
 
 .testimonials{
     padding-top: 99px;
     height: 825px;
     background-color: rgb(246, 244, 244);
-    /* width: 100%; */
 }
 .testimonials h2{
     text-align: center;
     font-size: 2.78vw;
     letter-spacing: 2px;
     margin-top: 1.9%;
-    color: #34404B;
     font-weight: initial;
     padding-left: 17px;
-
 }
 .testimonials .p4{
     text-align: center;
     font-size: 1.28vw;
     letter-spacing: 1px;
     padding-top: 37px;
-    color: #34404B;
     word-spacing: -1px;
     padding-left: 8px;
 }
@@ -527,15 +454,12 @@ p.a-between{
     padding-top: 13%;
     letter-spacing: 1.1px;
     line-height: 35px;
-    color: #34404B;
-   
 }
 
 .ccdsap img{
     position: absolute;
-    left: 27%;
+    left: 29.5%;
     margin-top: 167px;
-    width: 12%;
     height: 174px;
 }
 .ccdsap h3{
@@ -544,20 +468,15 @@ p.a-between{
     letter-spacing: 1px;
     padding-top: 36.5px;
     margin-bottom: -0.5px;
-    color: #34404B;
 }
 .l2-cont P{
     font-size: 1.2vw;
     letter-spacing: 1.5px;
     margin-left: -40.6%;
     margin-top: -2%;
-    color: #34404B;
 } 
 
-
 .line{
-    
-    height: 0px;
     width: 130%;
     margin-top: 16px;
     margin-left: -40%;
@@ -567,7 +486,6 @@ p.a-between{
     margin-left: -40.6%;
     padding-top: 5%;
     letter-spacing: 1.5px;
-    color: #34404B;
 }
 .img{
     background-color: rgb(228, 225, 225);
@@ -575,7 +493,6 @@ p.a-between{
     width: 37%;
     height: 100%;
     margin-left: -90.5%;
-    color: #34404B;
 }
 
 .test-dot{
@@ -592,12 +509,11 @@ span.dot1 {
 
 .double-quote {
     display: -webkit-inline-flex;
-    padding-left: 20px;
 } 
 
 .double-quote img {
     margin-top: -268px;
-    margin-left: 4%;
+    margin-left: 6.6%;
     height: 5vw;
 }
 
@@ -620,15 +536,11 @@ span.dot1 {
 .mob_l_arrow{
     display: none;
 }
-
-
 .arrow-l img {
     margin-top: -11.3vw;
     height: 3.6vw;
     margin-left: -12%;
 }
-
-
 .ls-card{
     background-color:white;
     width: 227px;
@@ -643,7 +555,6 @@ span.dot1 {
     letter-spacing: 1.5px;
     line-height: 35px;
     padding-right: 55px;
-    color: #34404B;
     margin-left: 3px;
 }
 .ls-card p{
@@ -665,7 +576,6 @@ span.dot-l {
     display: inline-block;
     margin-left: -2.8px; 
 }
-
  
 .right-card {
    
@@ -674,7 +584,6 @@ span.dot-l {
     background-color:white;
     width: 62.1%;
     margin-left: 630px;
-
 }  
 
 
@@ -683,7 +592,6 @@ span.dot-l {
     background-color: rgb(228, 225, 225);
     height: 356px;
     width: 6.8%;
-    
 }
 .ccdsap .right-card img {
     margin-top: 122px;
@@ -695,9 +603,8 @@ span.dot-l {
 .right-card img.double-quote2 {
     margin-top: -16px;
     width: 28px;
-    margin-left: 1177px;
+    margin-left: 1136px;
 }
-
 
 .r-p {
     opacity: .49;
@@ -710,7 +617,6 @@ span.dot-l {
     letter-spacing: 1.69px;
     line-height: 35px;
     margin-left: 191px;
-    
 }   
 
 .right-card h5 {
@@ -726,14 +632,11 @@ span.dot-l {
     font-weight: 200;
     padding-top: 7px;
     margin-left: 195px;
-
 }
 
 .right-card p {
     border-bottom: 1px solid rgb(136, 127, 127);
     padding-top: 5%;
-    width: 32%;
-    margin-left: 68%;
 }
 
 .right-card h3 {
@@ -750,8 +653,6 @@ span.dot-l {
 
 .certified-users h1{
     text-align: center;
-    color: #34404B;
-    font-family: "ubuntu", sans-serif;
     font-weight: initial;
     font-size: 53px;
     letter-spacing: 0.4px;
@@ -764,7 +665,6 @@ span.dot-l {
     padding-top: 21px;
     padding-left: 7px;
     letter-spacing: 0.3px;
-    font-family: "ubuntu", sans-serif;
 }
 
 .neha-img img{
@@ -777,24 +677,17 @@ span.dot-l {
     font-size: 18.8px;
     margin-top: 18.6%;
     margin-left: 48px;
-    margin-bottom: -0.5px;
-    color: #34404B;
-    font-family: "ubuntu", sans-serif;
 }
 .neha-img p{
     font-size: 17px;
     margin-left: -10.5%;
     padding-top: 5px;
     letter-spacing: -0.3px;
-
-    color: #34404B;
 }
 
 .neha-img span{
     font-size: 16.7px;
     margin-left: 19%;
-    color: #34404B;
-    font-family: "ubuntu", sans-serif;
 } 
 
 .line1{
@@ -802,19 +695,10 @@ span.dot-l {
     margin-top: 8%;
     margin-left: 49px;
 }
-.l-line p{
-    padding-left: 32px;
-    font-size: 19.2px;
-    padding-top: 17px;
-}
-.l-line p.fc{
-    margin-left: -13px;
-}
 .circle{
     margin-left: 51px;
     margin-top: 6px;
 }
-
 span.dot {
     height: 10px;
     width: 11px;
@@ -822,8 +706,6 @@ span.dot {
     display: inline-block;
     margin-left: 1.1px; 
 }
-
-
 .neha-img{
     background: linear-gradient(to right, #f7f7f7 56%, #ffffff 45%);
     border: 1px solid #cbcbcb;
@@ -841,30 +723,24 @@ span.dot {
     padding-top: 9.5%;
     margin-bottom: 14.1%;
 }
-
 .posters{
     display: none;
 }
-
 .l-four-cards{
     margin-left: 2px;
 }
-
-
 
 .footer{
     background-color: #f3f3f3;
     margin-top: -15%;
     padding-top: 18%;
+    color: #34404B;
 }
 .footer p{
     margin-top: -16.35%;
     padding-left: 48.2%;
     font-size: 19px;
-    color: #34404B;
-    font-family: "ubuntu", sans-serif;
 }
-
 .logos img{
     margin-left: 17px;
     height: 22.2px;
@@ -872,21 +748,15 @@ span.dot {
 .fb{
     padding-left: 4px;
 }
-
-
 .google{
     padding-right: 7px;
 }
-
-
 .logos{
     padding-left: 44.99%;
     padding-top: 20px;
     border-bottom: 2px solid white;
     height: 65px;
 }
-
-
 
 .last-dot{
     margin-left: 50.5px;
@@ -907,55 +777,40 @@ span.dot2 {
 .yellow {
     background-color:#F7CE44;
 }
-  
 .orangered {
     background-color: #E86A1C;
 }
-  
 .red {
     background-color: #E81C1C;
 }
-  
 .grey{
-    background-color:#C4C3C3;
-  
+    background-color:#C4C3C3; 
 }
-
 .l-nav a{
     padding: 1.4%;
     font-size: 1vw;
     letter-spacing: 0.8px;
-    font-family: "ubuntu", sans-serif;
-    color: #34404B;
-    
 }
-
 .l-nav{
     padding-left: 6.56%;
     margin-top: 3.44%;
     margin-bottom: 22px;
 }
-
 .l-nav a.lev2 {
     padding-left: 18px;
 }
-
 .l-nav a.det {
     padding-left: 30.5px;
     padding-right: 21px;
 }
-
 a.cc-dsa{
-    padding-right: 2.2%;
     font-size: 16.5px;
-    margin-right: 9px;
+    margin-right: 23px;
 }
-
 .l-dots img{
     padding-left: 9.3%;
     margin-bottom: 1%;
     height: 5.2px;
-
 }
 
 hr.thin-line {
@@ -975,9 +830,6 @@ hr.thin-line {
     padding-left: 2.7%;
     font-size: 1.02vw;
     letter-spacing: 0.3px;
-    font-family: "ubuntu", sans-serif;
-    color: #34404B;
-
 }
 .codechef a.prac{
     padding-left: 38px;
@@ -1001,8 +853,6 @@ hr.thin-line {
 
 a.pm{
     padding-left: 14.38%;
-    font-family: "ubuntu", sans-serif;
-    color: #34404B;
     letter-spacing: -0.5px;
     margin-right: 10px;
     font-size: 18px;
@@ -1010,12 +860,10 @@ a.pm{
 a.pm b{
     margin-top: 5px;
     position: absolute;
-
 }
 .amex img{
     width: 11.79%;
     margin-left: 153px;
     margin-bottom: -2px;
-
 }
  

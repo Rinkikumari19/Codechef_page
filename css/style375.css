@@ -1,15 +1,12 @@
 @media only screen and (max-width: 415px){
     .topnav{
-        margin-top: 2%;
         height: 82px;
     }
-
     .email-img img{
         margin-left: 21px;
         height: 72%;
         width: 20px;
     }
-   
     .phone-img img{
         padding-left: 11px;
         height: 14px;
@@ -56,7 +53,6 @@
     .left-leave{
         padding-left:48px;
         margin-top: 5px;
-        width: 0%;
     } 
     
     .left-nav2{
@@ -68,8 +64,6 @@
         margin-top: 4.4%;
     }
      .right-nav2{
-        float: left;
-        padding-top: 2%;
         padding-left: 7.5%;
     }
    
@@ -87,7 +81,6 @@
     }
     .left-leave img.l1 {
         height: 16px;
-        padding-left: 7px;
     }
     .left-leave img {
         padding-left: 7px;
@@ -145,11 +138,7 @@
     }
     .left-nav2 a.help {
         padding-right: 18px;
-       
-
     }
-    
-
     .dsa{
         height: 628px;
     }
@@ -170,7 +159,6 @@
         line-height: 41.99px;
         padding-top: 15px;
         margin-left: -9px;
-        padding-right: 25px;
         }
 
     br {
@@ -180,7 +168,6 @@
         padding-top: 40.5px;
         line-height: 134.999%;
         font-size: 8.94vw;
-        margin-bottom: 15px;
         margin-left: -6.5px;
         letter-spacing: 0.001px;
     }
@@ -198,21 +185,17 @@
         padding-left: 74px;
         margin-top: 5px;
         margin-left: -4.5px;
-        font-size: 19.9px;
     }
  
     .time{
-        margin-top: -0.5%;
+        margin-top: -9.7%;
         font-size: 3.8vw;
         height: 127px;
-        width: 91%;
         padding-left: 8.7%;
         padding-top: 10px;
     }
 
-
     span.exam1{
-        padding-left: 0%;
         line-height: 71px;
         font-size: 16.3px;
     }
@@ -224,7 +207,6 @@
         display: none;
     }
     span.date2{
-       
         padding-left: 41px;
         font-size: 5vw;
     }
@@ -241,14 +223,6 @@
         margin-left: 54.4%;
         margin-top: -45px;
     }
-    
-    .date2 a{
-        padding-left: 30px;
-        font-size: 25px;
-        padding-left: 80px;
-        font-size: 20px;
-    } 
-    
 
     .certification{
         height: 0%;
@@ -272,11 +246,6 @@
         margin-top: -7.7px
     } 
     
-
-
-
-
-
     .levels h1{
         font-size: 10vw;
         padding-top: 55.5px;
@@ -294,7 +263,6 @@
     .found{
         padding-left: 0%;
         margin-left: -43px;
-        font-size: 19px;
     }
    
     .found .advance {
@@ -306,13 +274,9 @@
         padding-top: 3px;
         margin-left: 3px;
         font-size: 4.38vw;
-
-
     }
     .levels .level-prag{
-    
         font-size: 4.75vw;
-        letter-spacing: 1.08px;
         padding-top: 10.8%;
         line-height: 36.6px;
         margin-left: -50px;
@@ -343,16 +307,13 @@
         margin-top: 10.516px;
         width: 29px;
         margin-left: 1px;
-
     }
    
     .right-side .p2{
         font-size: 5.16vw;
-        padding-left: 0%;
         letter-spacing: 1.49px;
         margin-top: 51.5px;
-        margin-left: -51px;
-        padding-right: 4%;
+        margin-left: -171px;
         line-height: 34.9px;
     }
    
@@ -361,7 +322,6 @@
         font-size: 5.5vw;
         padding-top: 15px;
         margin-left: -52px;
-        
     }
     .right-side .p3{
         font-size: 5.4vw;
@@ -399,14 +359,11 @@
     .cut::before {
         content: '';
         position: absolute;
-        left: 83px;
         top: 76px;
         bottom: 20px;
         width: 52%;
         background: linear-gradient(to left top, transparent 47.5%, currentColor 52.5%, currentColor 55.5%, transparent 42.5%);
     }
-
-
 
     .yellow-box h2{
         font-size: 28px;
@@ -518,26 +475,16 @@
     }
     .ccdsap{
         width: 56.6%;
-        background-color: rgba(255, 255, 255, 0.787);
         margin-left: -0.3%;
         padding-left: 43%;
         margin-top: 12.15%;
-        border: 1px solid #c3bdbd;
         height: 65.5%;
-        box-shadow: 3px 17px 12px -22px;
-    
     }
     .img {
-        background-color: rgb(228, 225, 225);
-        float: left;
         width: 55%;
-        height: 100%;
-        margin-left: -90.5%;
-        color: #34404B;
     }
     .ccdsap .mid-cont {
         font-size: 4.2vw;
-        padding-right: 19%;
         margin-left: -15.6vw;
         padding-top: 14.5%;
         letter-spacing: 1px;
@@ -546,9 +493,7 @@
     
     .img img {
         left: 8%;
-        margin-top: 167px;
         margin-top: 81.3%;
-        width: 30%;
         height: 32.43%;
     
     }
@@ -559,7 +504,6 @@
     }
     .l2-cont p{
         font-size: 4.6vw;
-        letter-spacing: 1.5px;
         margin-left: 2%;
         margin-top: -4.3%;
         line-height: 138%;
@@ -573,7 +517,6 @@
     }
     
     .line {
-        height: 0px;
         width: 74%;
         margin-left: 3%;
         margin-top: 9%;
@@ -585,7 +528,6 @@
         height: 15%;
     }
 
-
     .test-dot{
         margin-left: 6.5px;
         margin-top: 9px;
@@ -593,9 +535,6 @@
     span.dot1 {
         height: 12px;
         width: 12px;
-        border-radius: 50%;
-        display: inline-block;
-        margin-left: 1px; 
     }
     .arrow-l img {
         margin-top: -64.2%;
@@ -615,7 +554,6 @@
     .mob_l_arrow{
         display: block;
     }
-
     .right-card{
         display:none;
     }
@@ -626,10 +564,8 @@
         display: none;
     }
 
-
     .certified-users h1 {
         font-size: 37.3px;
-        letter-spacing: 0.4px;
         padding-top: 12.8%;
         padding-left: 40px;
         text-align: -webkit-left;
@@ -659,7 +595,6 @@
         margin-left: 49.4px;
         width: 49%;
         margin-top: -3.9px;
-        /* height: 176.5px; */
     }
     .neha-img p {
         font-size: 16.8px;
@@ -678,40 +613,23 @@
     }
 
     span.dot {
-        height: 10px;
-        width: 11px;
-        border-radius: 50%;
-        display: inline-block;
         margin-left: 1.3px; 
     }
 
-   
     .blue{
         background-color: #387FCB;
     }
     .yellow {
         background-color:#F7CE44;
     }
-      
     .orangered {
         background-color: #E86A1C;
     }
-      
     .red {
         background-color: #E81C1C;
     }
-      
     .grey{
         background-color:#C4C3C3;
-      
-    }
-    .circle{
-        margin-left: 51px;
-        margin-top: 5.8px;
-    }
-
-    .line1 {
-        margin-top: 7.9%;
     }
     .l-line p {
         padding-left: 1px;
@@ -719,19 +637,15 @@
         padding-top: 19px;
     }
 
-
-
     .footer p {
         margin-top: -8.5%;
         font-size: 113.5%;
         padding-left: 39%;
-        padding-right: 39%;
     }
     .logos {
         padding-left: 25.3%;
         padding-right: 26%;
        height: 57px;
-       margin-top: 0%;
        padding-top: 16px;
     }
     .logos img {
@@ -746,9 +660,6 @@
     .google {
         padding-right: 9px;
     }
-
-
-
 
     .l-nav a{
         padding: 27%;
@@ -772,12 +683,10 @@
 
     .l-nav a.lev2 {
         padding-left: 55px;
-        padding-top: 3px;
     }
     .l-nav a.det {
         padding-left: 55px;
     }
-   
 
     .l-nav a.ho{
         color: #ff5912;
@@ -785,7 +694,6 @@
     .l-nav a.help{
         position: relative;
         top: -1px;
-
     }
     .codechef a.prac {
         padding-left: 6px;
@@ -806,28 +714,20 @@
         padding-left: 6px;
     }
 
-
     .last-dot{
         margin-left: 84.7px;
         margin-top: -21.2px;
-        position: absolute;
     }
     span.dot2 {
-        height: 5.5px;
         width: 5.5px;
-        border-radius: 50%;
-        display: inline-block;
-        margin-left: 0.4px; 
     }
     
     hr.thin-line {
         display: none;
     }
-    
     .codechef{
         padding-left: 36.8%;
         padding-right: 37%;
-       
     }
     
     .codechef a{
@@ -866,64 +766,3 @@
 
 
 
-/* @media only screen and (max-width: 411px){
-    .new-user {
-        margin-right: 26px;
-    }
-    .dots {
-        padding-left: 65.5%;
-    }
-}
-    
-
-
-
-@media only screen and (max-width: 320px){
-    .new-user {
-        margin-right: 4px;
-    }
-    .dots {
-        padding-left: 65.5%;
-        
-    }
-    .dsa {
-        height: 618px;
-    }
-    .all-posters{
-        padding-left: 0%;
-        margin-left: 10%;
-    }
-}
-  
-
-
-@media only screen and (max-width: 360px){
-    .dsa {
-        height: 646px;
-    }
-    .new-user{
-        margin-right: 13px;
-    }
-    .dots img{
-        margin-left: -21%;
-    }
-}
-
-
-
-@media only screen and (max-width: 375px){
-    .dsa {
-        height: 656px;
-    }
-    .new-user {
-        margin-right: 16px;
-    }
-    .dots img {
-        margin-left: -9px;
-    }
-}
-@media only screen and (max-width: 411px){
-    .dsa {
-        height: 680px;
-    }
-}  */
