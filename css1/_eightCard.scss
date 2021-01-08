@@ -1,0 +1,55 @@
+
+
+
+.certified-users{
+    @include marginAuto();
+    padding-top: 50px;
+    color: #34404B;
+    padding-bottom: 50px;
+    h1{
+        @include CenterH1();
+    }
+    .lorem{
+        @include para();
+        text-align: center;
+        margin-top: -25px;
+    }
+    .all-posters{
+        .neha-img{
+            background: linear-gradient(to right, #f7f7f7 53%, #ffffff 45%);
+            border: 1px solid #cbcbcb;
+            height: 399px;
+            width: 13%;
+            display: inline-block;
+            padding: 50px 50px 20px 54px;
+            margin-left: 46px;
+            margin-bottom: 63px;
+            img{
+                width: 76%;
+            }
+            h3{
+                margin-top: 50px;
+            }
+            p{
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .line1{
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+            .circle{
+                @include colous();
+                span.dot {
+                    height: 10px;
+                    width: 11px;
+                    border-radius: 50%;
+                    display: inline-block; 
+                }       
+            }
+        }
+    }
+
+}
+
+

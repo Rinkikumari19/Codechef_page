@@ -1,0 +1,198 @@
+@import 'main';
+
+.testimonials{
+    background-color: rgb(246, 244, 244);
+    .test-heading{
+
+        @include marginAuto();
+        h2{
+            padding-top: 10%;
+            @include CenterH1();
+        }
+        p{
+            @include para();
+            text-align: center;
+        }   
+    }
+    .ccdsap{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        padding-top: 40px;
+        // height: 600px;
+        .ls-card{
+            opacity: 0.49;
+            background-color: white;
+            height: 75%;
+            width: 203px;
+            margin-top: 40px;
+
+            h4{
+                font-size: 23px;
+                font-weight: 300;
+                font-size: 22px;
+                letter-spacing: 1.5px;
+                line-height: 35px;
+                padding-top: 49px;
+                padding-right: 43px;
+                padding-bottom: 60px;
+            }
+            p{
+                border-bottom: 1px solid rgb(136, 127, 127);
+                padding-top: 64%;
+            }
+            .left-dot{
+                margin-left: 5%;
+                position: absolute;
+                @include colous();
+                span.dot-l  {
+                    height: 13px;
+                    width: 13px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    margin-left: 1px; 
+                    
+                }
+            }
+        }
+        .arrow-l{
+            margin-top: 10%;
+            .mob_l_arrow{
+                display: none;
+            }
+        
+        }
+
+        .mid-box{
+            width: 44%;
+            background-color: rgba(255, 255, 255, 0.787);
+            border: 1px solid #c3bdbd;
+            height: 440px;
+            box-shadow: 3px 17px 12px -22px;
+            display: flex;
+            .content{
+                .mid-cont{
+                    letter-spacing: 1.1px;
+                    line-height: 35px;
+                    padding: 50px 60px 0px 10px;
+                    font-size: 133%;
+                }
+                h3{
+                    font-size: 22px;
+                    padding-left: 47px;
+                }
+                p{
+                    @include para();
+                    margin-left: 45px;
+                }
+            }
+            .img{
+                background-color: rgb(228, 225, 225);
+                width: 18%;
+                height: 440px;
+                img{
+                    margin-top: 184px;
+                    margin-left: 63px;
+                }
+            }
+            .double-quote{
+                img{
+                    position: absolute;
+                    margin-left: -35.5%;
+                    margin-top: 41px;
+                }
+            }
+            .line{
+                width: 85%;
+                margin-left: 45px;
+                margin-top: -23px;
+            }
+            p em{
+                margin-top: -25px;
+                position: absolute;
+            }
+            .test-dot{
+                margin-left: 37.5%;
+                margin-top: 345px;
+                position: absolute;
+                @include colous();
+                span.dot1 {
+                    height: 13px;
+                    width: 13px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    margin-left: 1px;  
+                }
+            }
+        }
+        .arrow-r{
+            margin-top: 10%;
+            .mob_r_arrow{
+                display: none;
+            }
+        }
+        .right-card{
+            height: 356px;
+            background-color: white;
+            width: 16%;
+            opacity: 0.49;
+            display: flex;
+            margin-top: 40px;
+            
+            .right-img {
+                background-color: #e4e1e1;
+                height: 356px;
+                width: 40%;
+                img{
+                    margin-top: 126px;
+                    margin-left: 40px;
+                }
+            }
+        }
+        .third-card{
+            padding: 1px 1px 2px 73px;
+           
+            h4{
+                font-size: 22px;
+                font-weight: 300;
+                letter-spacing: 1.5px;
+                line-height: 35px;
+                margin-top: -68px;
+                 
+            }
+            h5{
+                font-size: 18px;
+                padding-top: 30px;
+            }
+            h6{
+                font-size: 18px;
+                padding-top: 5px;
+                font-weight: 300;
+            }
+            p{
+                border-bottom: 1px solid #887f7f;
+                padding-top: 13%;
+                width: 93%;
+            }
+            h3{
+                font-size: 18px;
+                margin-top: 10px;
+                font-weight: 300;
+                letter-spacing: 1.2px;
+            }
+            .double-quote2{
+                width: 28px;
+                margin-left: -34px;
+                margin-top: 28px;
+            }
+        }
+    }
+}
+
+
+
+

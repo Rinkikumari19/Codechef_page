@@ -1,0 +1,79 @@
+@import 'main';
+
+.footer{
+    color: #34404B;
+    background-color: #f3f3f3;
+    .f-footer{
+        border-bottom: 2px solid white;
+        padding: 33px 118px 0px 101px;
+        
+        p, .logos{
+            @include CenterH1();
+            font-size: 22px;
+            img{
+                margin-left: 10px;
+                height: 26px;
+            }
+        }
+    }
+    .l-footer{
+        @include marginAuto();
+        padding-left: 10px;
+        padding-right: 10px;
+        .l-nav{
+            display: flex;
+            padding-top: 50px;
+            a{
+                margin-right: 40px;
+                font-size: 17px;
+                .hr-bar{
+                    @include RedLine();
+                }
+                b{
+                    margin-right: 30px;
+                }
+            }
+        }
+        .foo{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            padding-bottom: 50px;
+            .codechef{
+                a{
+                    margin-right: 30px;
+                    
+                    font-size: 17px; 
+                }
+                .cc img{
+                    height: 13.8px;
+                    margin-right: 15px;
+                }
+            }
+            .payment-method{
+                .amex{
+                    margin-left: 30px;
+                }
+            }
+        }
+      
+    }
+    .last-dot{
+        margin-left: 25px;
+        margin-top: -17px;
+        position: absolute;
+        @include colous();
+        span.dot2 {
+            height: 5.6px;
+            width: 6px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 0.3px; 
+        }
+
+    }
+}
+
+
+
+

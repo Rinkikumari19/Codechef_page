@@ -1,0 +1,83 @@
+@import 'main';
+
+.topnav{
+    @include marginAuto();
+    margin-top: 30px;
+    padding-bottom: 20px;
+    @media #{$mediaQuary-phone} {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .left-navbar{
+        display: flex;
+        justify-content: space-between;
+        .left-side{
+            display: flex;
+            
+            img,span{
+                margin-right: 20px;
+            
+            }  
+            
+        }
+        .right-navbar{
+            button{
+                padding: 10px 25px 10px 30px;
+                border: 1px solid red;
+                border-radius: 3px;
+                font-size: 16px;
+                margin-left: 30px;
+                @media #{$mediaQuary-phone}{
+                    padding: 6px 7px 7px 9px;
+                
+                } 
+            }
+        }
+    }
+}
+
+
+.border-line{
+    border-top: 1px solid #eaeaea;
+}
+
+.topnav2{
+    @include marginAuto();
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    .right-nav2{
+        display: flex;
+        .cc-img{
+            margin-right: 15px;
+            img{
+                border: 1px solid #707070;
+                padding: 3px;
+            }
+        }
+        .left-img{
+            .dots{
+                img{
+                    margin-left: 78%;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        
+    }
+    .left-nav2{
+        display: flex;
+        a{
+            margin-left: 30px;
+            font-size: 19px;
+            .hr-bar{
+                @include RedLine();
+            }
+           
+        }
+        a.home{
+            color: #ff5912;
+        }
+    }
+}
+    

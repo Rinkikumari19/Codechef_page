@@ -1,0 +1,19 @@
+$mediaQuary-phone: "only screen and (max-width : 480px)";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "ubuntu", sans-serif;
+}
+
+
+@import 'navbar';
+@import 'main';
+@import 'yellowCard';
+@import 'testimonials';
+@import 'eightCard';
+@import 'footer';
+
+@import 'mediaQuary';
+
+

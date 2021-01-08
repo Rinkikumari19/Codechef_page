@@ -1,0 +1,136 @@
+
+// @mixin ComomnColor($primarycolour){
+
+//     color: $primarycolour;
+// }
+
+@mixin marginAuto{
+    color: #34404B;
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+     
+}
+
+@mixin CenterH1{
+    text-align: center;
+    font-weight: unset;
+    font-size: 49px;
+    padding-bottom: 33px;
+}
+
+@mixin RedLine{
+    border: 2px solid #ff5912;
+    border-radius: 3px;
+    width: 20px;
+    margin-top: 5px; 
+}
+
+@mixin para{
+    font-size: 22px;
+    line-height: 42px;
+    margin-bottom: 30px;
+    letter-spacing: 1px; 
+}
+
+@mixin button{
+    padding: 17px 80px 17px 80px;
+    background-color: #ff5912;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+@mixin none {
+    display: none;   
+}
+
+@mixin colous {
+    .blue {
+        background-color: #387FCB;
+    }
+    .yellow {
+        background-color:#F7CE44;
+    }
+    .orangered {
+        background-color: #E86A1C;
+    }
+    .red {
+        background-color: #E81C1C;
+    }
+    .grey{
+        background-color:#C4C3C3; 
+    } 
+}
+
+
+
+.dsa-page{
+    @include marginAuto();
+    padding-left: 14%;
+    h1{
+        font-size: 50px;
+        padding-bottom: 26px;
+        font-weight: inherit;
+        word-spacing: -1px;
+        padding-top: 12%;
+    }
+    p{
+        font-size: 26px;
+        letter-spacing: 1px;
+        line-height: 43px;
+        padding-bottom: 60px;
+    }
+    button{
+        @include button();
+    }
+    img{
+        margin-left: 80%;
+    }
+    
+   
+}
+
+.time{
+    background-color:#2F2F2F ;
+    .exam-date{
+        @include marginAuto();
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 14%;
+        span{
+            margin-left: 45px;
+            font-size: 21px;
+        }
+        span.vertical-line{
+        border-left: 1px solid white;
+        border-bottom-style: solid;
+        }
+        span.date1{
+            font-size: 26px;
+        }
+    }
+}
+
+
+.certification{
+    background-color: #e7e6e6;
+    .dsa-color{
+        color: #34404B;
+        @include marginAuto();
+        padding-top: 100px;
+        padding-bottom: 50px;
+        padding-left: 21%;
+        padding-right: 19%;
+        h1{
+            @include CenterH1(); 
+            }
+        p{
+            @include para();
+        }
+    }
+    
+}
