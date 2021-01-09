@@ -22,6 +22,12 @@
   padding-top: 12%;
 }
 
+@media only screen and (max-width: 480px) {
+  .dsa-page h1 {
+    font-size: 40px;
+  }
+}
+
 .dsa-page p {
   font-size: 26px;
   letter-spacing: 1px;
@@ -41,11 +47,17 @@
   margin-left: 80%;
 }
 
+@media only screen and (max-width: 480px) {
+  .dsa-page img {
+    margin-left: 63%;
+  }
+}
+
 .time {
   background-color: #2F2F2F;
 }
 
-.time .exam-date {
+.time .ed {
   color: #34404B;
   max-width: 1350px;
   margin-left: auto;
@@ -56,19 +68,56 @@
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 14%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.time .exam-date span {
+@media only screen and (max-width: 480px) {
+  .time .ed {
+    padding-right: 1px;
+    padding-left: 1px;
+    display: inline;
+    line-height: 49px;
+  }
+  .time .ed .one {
+    margin-left: -10px;
+  }
+  .time .ed .one .exam1 {
+    font-size: 18px;
+    margin-right: 24%;
+  }
+  .time .ed .one .date1 {
+    font-size: 23px;
+  }
+  .time .ed .two {
+    margin-left: -10px;
+  }
+  .time .ed .two .exam2 {
+    font-size: 18px;
+  }
+  .time .ed .two .date2 {
+    font-size: 23px;
+  }
+}
+
+.time .ed span {
   margin-left: 45px;
   font-size: 21px;
 }
 
-.time .exam-date span.vertical-line {
+.time .ed span.vertical-line {
   border-left: 1px solid white;
   border-bottom-style: solid;
 }
 
-.time .exam-date span.date1 {
+@media only screen and (max-width: 480px) {
+  .time .ed span.vertical-line {
+    display: none;
+  }
+}
+
+.time .ed span.date1 {
   font-size: 26px;
 }
 
@@ -90,11 +139,24 @@
   padding-right: 19%;
 }
 
+@media only screen and (max-width: 480px) {
+  .certification .dsa-color {
+    padding-left: 15%;
+    padding-right: 13%;
+  }
+}
+
 .certification .dsa-color h1 {
   text-align: center;
   font-weight: unset;
   font-size: 49px;
   padding-bottom: 33px;
+}
+
+@media only screen and (max-width: 480px) {
+  .certification .dsa-color h1 {
+    font-size: 42px;
+  }
 }
 
 .certification .dsa-color p {
@@ -175,6 +237,12 @@
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 480px) {
+  .topnav2 {
+    display: block;
+  }
+}
+
 .topnav2 .right-nav2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,8 +269,14 @@
   display: flex;
 }
 
+@media only screen and (max-width: 480px) {
+  .topnav2 .left-nav2 {
+    padding-bottom: 30px;
+  }
+}
+
 .topnav2 .left-nav2 a {
-  margin-left: 30px;
+  margin-right: 30px;
   font-size: 19px;
 }
 
@@ -235,6 +309,12 @@
   padding-top: 12%;
 }
 
+@media only screen and (max-width: 480px) {
+  .dsa-page h1 {
+    font-size: 40px;
+  }
+}
+
 .dsa-page p {
   font-size: 26px;
   letter-spacing: 1px;
@@ -254,11 +334,17 @@
   margin-left: 80%;
 }
 
+@media only screen and (max-width: 480px) {
+  .dsa-page img {
+    margin-left: 63%;
+  }
+}
+
 .time {
   background-color: #2F2F2F;
 }
 
-.time .exam-date {
+.time .ed {
   color: #34404B;
   max-width: 1350px;
   margin-left: auto;
@@ -269,19 +355,56 @@
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 14%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.time .exam-date span {
+@media only screen and (max-width: 480px) {
+  .time .ed {
+    padding-right: 1px;
+    padding-left: 1px;
+    display: inline;
+    line-height: 49px;
+  }
+  .time .ed .one {
+    margin-left: -10px;
+  }
+  .time .ed .one .exam1 {
+    font-size: 18px;
+    margin-right: 24%;
+  }
+  .time .ed .one .date1 {
+    font-size: 23px;
+  }
+  .time .ed .two {
+    margin-left: -10px;
+  }
+  .time .ed .two .exam2 {
+    font-size: 18px;
+  }
+  .time .ed .two .date2 {
+    font-size: 23px;
+  }
+}
+
+.time .ed span {
   margin-left: 45px;
   font-size: 21px;
 }
 
-.time .exam-date span.vertical-line {
+.time .ed span.vertical-line {
   border-left: 1px solid white;
   border-bottom-style: solid;
 }
 
-.time .exam-date span.date1 {
+@media only screen and (max-width: 480px) {
+  .time .ed span.vertical-line {
+    display: none;
+  }
+}
+
+.time .ed span.date1 {
   font-size: 26px;
 }
 
@@ -303,11 +426,24 @@
   padding-right: 19%;
 }
 
+@media only screen and (max-width: 480px) {
+  .certification .dsa-color {
+    padding-left: 15%;
+    padding-right: 13%;
+  }
+}
+
 .certification .dsa-color h1 {
   text-align: center;
   font-weight: unset;
   font-size: 49px;
   padding-bottom: 33px;
+}
+
+@media only screen and (max-width: 480px) {
+  .certification .dsa-color h1 {
+    font-size: 42px;
+  }
 }
 
 .certification .dsa-color p {
@@ -335,6 +471,12 @@
   padding-top: 12%;
 }
 
+@media only screen and (max-width: 480px) {
+  .dsa-page h1 {
+    font-size: 40px;
+  }
+}
+
 .dsa-page p {
   font-size: 26px;
   letter-spacing: 1px;
@@ -354,11 +496,17 @@
   margin-left: 80%;
 }
 
+@media only screen and (max-width: 480px) {
+  .dsa-page img {
+    margin-left: 63%;
+  }
+}
+
 .time {
   background-color: #2F2F2F;
 }
 
-.time .exam-date {
+.time .ed {
   color: #34404B;
   max-width: 1350px;
   margin-left: auto;
@@ -369,19 +517,56 @@
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 14%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.time .exam-date span {
+@media only screen and (max-width: 480px) {
+  .time .ed {
+    padding-right: 1px;
+    padding-left: 1px;
+    display: inline;
+    line-height: 49px;
+  }
+  .time .ed .one {
+    margin-left: -10px;
+  }
+  .time .ed .one .exam1 {
+    font-size: 18px;
+    margin-right: 24%;
+  }
+  .time .ed .one .date1 {
+    font-size: 23px;
+  }
+  .time .ed .two {
+    margin-left: -10px;
+  }
+  .time .ed .two .exam2 {
+    font-size: 18px;
+  }
+  .time .ed .two .date2 {
+    font-size: 23px;
+  }
+}
+
+.time .ed span {
   margin-left: 45px;
   font-size: 21px;
 }
 
-.time .exam-date span.vertical-line {
+.time .ed span.vertical-line {
   border-left: 1px solid white;
   border-bottom-style: solid;
 }
 
-.time .exam-date span.date1 {
+@media only screen and (max-width: 480px) {
+  .time .ed span.vertical-line {
+    display: none;
+  }
+}
+
+.time .ed span.date1 {
   font-size: 26px;
 }
 
@@ -403,11 +588,24 @@
   padding-right: 19%;
 }
 
+@media only screen and (max-width: 480px) {
+  .certification .dsa-color {
+    padding-left: 15%;
+    padding-right: 13%;
+  }
+}
+
 .certification .dsa-color h1 {
   text-align: center;
   font-weight: unset;
   font-size: 49px;
   padding-bottom: 33px;
+}
+
+@media only screen and (max-width: 480px) {
+  .certification .dsa-color h1 {
+    font-size: 42px;
+  }
 }
 
 .certification .dsa-color p {
@@ -431,11 +629,24 @@
   padding-bottom: 50px;
 }
 
+@media only screen and (max-width: 480px) {
+  .levels {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
 .levels h1 {
   text-align: center;
   font-weight: unset;
   font-size: 49px;
   padding-bottom: 33px;
+}
+
+@media only screen and (max-width: 480px) {
+  .levels h1 {
+    text-align: left;
+  }
 }
 
 .levels .found {
@@ -451,6 +662,16 @@
   letter-spacing: 1px;
   color: #ff5912;
   padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .levels .found {
+    padding-left: 0%;
+    font-size: 21px;
+  }
+  .levels .found a {
+    margin-right: 30px;
+  }
 }
 
 .levels .found .hr-bar {
@@ -471,9 +692,22 @@
   letter-spacing: 1px;
 }
 
+@media only screen and (max-width: 480px) {
+  .levels h3 {
+    font-size: 26px;
+  }
+}
+
 .levels .right-side {
   margin-left: 46%;
   margin-top: -73px;
+}
+
+@media only screen and (max-width: 480px) {
+  .levels .right-side {
+    margin-left: 0%;
+    padding-top: 53px;
+  }
 }
 
 .levels .right-side .prag p, .levels .right-side .prag h4, .levels .right-side .prag h3 {
@@ -489,8 +723,28 @@
   font-weight: unset;
 }
 
+.levels .right-side .prag b {
+  color: #34404B;
+  margin-left: -26.3%;
+  position: absolute;
+  margin-top: 55px;
+}
+
+@media only screen and (max-width: 480px) {
+  .levels .right-side .prag b {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+}
+
 .levels .right-side .desktopImg {
   padding: 10px 10px 10px 90px;
+}
+
+@media only screen and (max-width: 480px) {
+  .levels .right-side .desktopImg {
+    display: none;
+  }
 }
 
 .levels .right-side .desktopImg .rupees .cut {
@@ -520,9 +774,41 @@
   margin-top: 40px;
 }
 
-.levels .right-side .desktopImg .rupees h3 {
-  margin-top: -70px;
-  margin-left: -76%;
+.levels .right-side .phoneImg {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .levels .right-side .phoneImg {
+    display: block;
+  }
+  .levels .right-side .phoneImg .rupees {
+    padding-top: 95px;
+  }
+  .levels .right-side .phoneImg .rupees .cut {
+    font-size: 26.5px;
+    position: absolute;
+    margin-top: -41px;
+  }
+  .levels .right-side .phoneImg .rupees .cut::before {
+    position: absolute;
+    content: "";
+    left: 23%;
+    top: 50%;
+    right: 0;
+    border-top: 2px solid;
+    border-color: inherit;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  .levels .right-side .phoneImg .rupees .dis-price {
+    padding-bottom: 15px;
+  }
+  .levels .right-side .phoneImg .rupees span {
+    font-size: 24px;
+    line-height: 43px;
+    padding-left: 48px;
+  }
 }
 
 .levels button {
@@ -533,6 +819,12 @@
   color: white;
   margin-left: 51%;
   margin-top: 55px;
+}
+
+@media only screen and (max-width: 480px) {
+  .levels button {
+    margin-left: 0px;
+  }
 }
 
 .dsa-page {
@@ -551,6 +843,12 @@
   font-weight: inherit;
   word-spacing: -1px;
   padding-top: 12%;
+}
+
+@media only screen and (max-width: 480px) {
+  .dsa-page h1 {
+    font-size: 40px;
+  }
 }
 
 .dsa-page p {
@@ -572,11 +870,17 @@
   margin-left: 80%;
 }
 
+@media only screen and (max-width: 480px) {
+  .dsa-page img {
+    margin-left: 63%;
+  }
+}
+
 .time {
   background-color: #2F2F2F;
 }
 
-.time .exam-date {
+.time .ed {
   color: #34404B;
   max-width: 1350px;
   margin-left: auto;
@@ -587,19 +891,56 @@
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 14%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.time .exam-date span {
+@media only screen and (max-width: 480px) {
+  .time .ed {
+    padding-right: 1px;
+    padding-left: 1px;
+    display: inline;
+    line-height: 49px;
+  }
+  .time .ed .one {
+    margin-left: -10px;
+  }
+  .time .ed .one .exam1 {
+    font-size: 18px;
+    margin-right: 24%;
+  }
+  .time .ed .one .date1 {
+    font-size: 23px;
+  }
+  .time .ed .two {
+    margin-left: -10px;
+  }
+  .time .ed .two .exam2 {
+    font-size: 18px;
+  }
+  .time .ed .two .date2 {
+    font-size: 23px;
+  }
+}
+
+.time .ed span {
   margin-left: 45px;
   font-size: 21px;
 }
 
-.time .exam-date span.vertical-line {
+.time .ed span.vertical-line {
   border-left: 1px solid white;
   border-bottom-style: solid;
 }
 
-.time .exam-date span.date1 {
+@media only screen and (max-width: 480px) {
+  .time .ed span.vertical-line {
+    display: none;
+  }
+}
+
+.time .ed span.date1 {
   font-size: 26px;
 }
 
@@ -621,11 +962,24 @@
   padding-right: 19%;
 }
 
+@media only screen and (max-width: 480px) {
+  .certification .dsa-color {
+    padding-left: 15%;
+    padding-right: 13%;
+  }
+}
+
 .certification .dsa-color h1 {
   text-align: center;
   font-weight: unset;
   font-size: 49px;
   padding-bottom: 33px;
+}
+
+@media only screen and (max-width: 480px) {
+  .certification .dsa-color h1 {
+    font-size: 42px;
+  }
 }
 
 .certification .dsa-color p {
@@ -648,6 +1002,12 @@
   padding-right: 50px;
 }
 
+@media only screen and (max-width: 480px) {
+  .testimonials .test-heading {
+    padding-right: 77px;
+  }
+}
+
 .testimonials .test-heading h2 {
   padding-top: 10%;
   text-align: center;
@@ -656,12 +1016,26 @@
   padding-bottom: 33px;
 }
 
+@media only screen and (max-width: 480px) {
+  .testimonials .test-heading h2 {
+    text-align: left;
+    font-size: 45px;
+  }
+}
+
 .testimonials .test-heading p {
   font-size: 22px;
   line-height: 42px;
   margin-bottom: 30px;
   letter-spacing: 1px;
   text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .testimonials .test-heading p {
+    text-align: left;
+    font-size: 25px;
+  }
 }
 
 .testimonials .ccdsap {
@@ -685,6 +1059,12 @@
   height: 75%;
   width: 203px;
   margin-top: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .ls-card {
+    display: none;
+  }
 }
 
 .testimonials .ccdsap .ls-card h4 {
@@ -740,6 +1120,12 @@
   margin-top: 10%;
 }
 
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .arrow-l {
+    display: none;
+  }
+}
+
 .testimonials .ccdsap .arrow-l .mob_l_arrow {
   display: none;
 }
@@ -756,6 +1142,14 @@
   display: flex;
 }
 
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .mid-box {
+    width: 100%;
+    height: 600px;
+    padding-bottom: 50px;
+  }
+}
+
 .testimonials .ccdsap .mid-box .content .mid-cont {
   letter-spacing: 1.1px;
   line-height: 35px;
@@ -763,9 +1157,28 @@
   font-size: 133%;
 }
 
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .mid-box .content .mid-cont {
+    padding: 48px 17px 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .mid-box .content .intro {
+    padding-left: 10px;
+  }
+}
+
 .testimonials .ccdsap .mid-box .content h3 {
   font-size: 22px;
   padding-left: 47px;
+}
+
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .mid-box .content h3 {
+    padding-top: 40px;
+    font-size: 26px;
+  }
 }
 
 .testimonials .ccdsap .mid-box .content p {
@@ -782,9 +1195,23 @@
   height: 440px;
 }
 
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .mid-box .img {
+    height: 650px;
+    width: 23%;
+  }
+}
+
 .testimonials .ccdsap .mid-box .img img {
   margin-top: 184px;
   margin-left: 63px;
+}
+
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .mid-box .img img {
+    margin-top: 415px;
+    margin-left: 30px;
+  }
 }
 
 .testimonials .ccdsap .mid-box .double-quote img {
@@ -793,10 +1220,22 @@
   margin-top: 41px;
 }
 
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .mid-box .double-quote img {
+    margin-left: -77%;
+  }
+}
+
 .testimonials .ccdsap .mid-box .line {
   width: 85%;
   margin-left: 45px;
   margin-top: -23px;
+}
+
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .mid-box .line {
+    width: 69%;
+  }
 }
 
 .testimonials .ccdsap .mid-box p em {
@@ -830,6 +1269,13 @@
   background-color: #C4C3C3;
 }
 
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .mid-box .test-dot {
+    margin-left: 34%;
+    margin-top: 560px;
+  }
+}
+
 .testimonials .ccdsap .mid-box .test-dot span.dot1 {
   height: 13px;
   width: 13px;
@@ -840,6 +1286,12 @@
 
 .testimonials .ccdsap .arrow-r {
   margin-top: 10%;
+}
+
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .arrow-r {
+    display: none;
+  }
 }
 
 .testimonials .ccdsap .arrow-r .mob_r_arrow {
@@ -855,6 +1307,12 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .testimonials .ccdsap .right-card {
+    display: none;
+  }
 }
 
 .testimonials .ccdsap .right-card .right-img {
@@ -929,6 +1387,12 @@
   padding-bottom: 33px;
 }
 
+@media only screen and (max-width: 480px) {
+  .certified-users h1 {
+    text-align: left;
+  }
+}
+
 .certified-users .lorem {
   font-size: 22px;
   line-height: 42px;
@@ -936,6 +1400,12 @@
   letter-spacing: 1px;
   text-align: center;
   margin-top: -25px;
+}
+
+@media only screen and (max-width: 480px) {
+  .certified-users .lorem {
+    display: none;
+  }
 }
 
 .certified-users .all-posters .neha-img {
@@ -948,6 +1418,12 @@
   padding: 50px 50px 20px 54px;
   margin-left: 46px;
   margin-bottom: 63px;
+}
+
+@media only screen and (max-width: 480px) {
+  .certified-users .all-posters .neha-img {
+    width: 40%;
+  }
 }
 
 .certified-users .all-posters .neha-img img {
@@ -1013,6 +1489,12 @@
   padding-top: 12%;
 }
 
+@media only screen and (max-width: 480px) {
+  .dsa-page h1 {
+    font-size: 40px;
+  }
+}
+
 .dsa-page p {
   font-size: 26px;
   letter-spacing: 1px;
@@ -1032,11 +1514,17 @@
   margin-left: 80%;
 }
 
+@media only screen and (max-width: 480px) {
+  .dsa-page img {
+    margin-left: 63%;
+  }
+}
+
 .time {
   background-color: #2F2F2F;
 }
 
-.time .exam-date {
+.time .ed {
   color: #34404B;
   max-width: 1350px;
   margin-left: auto;
@@ -1047,19 +1535,56 @@
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 14%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.time .exam-date span {
+@media only screen and (max-width: 480px) {
+  .time .ed {
+    padding-right: 1px;
+    padding-left: 1px;
+    display: inline;
+    line-height: 49px;
+  }
+  .time .ed .one {
+    margin-left: -10px;
+  }
+  .time .ed .one .exam1 {
+    font-size: 18px;
+    margin-right: 24%;
+  }
+  .time .ed .one .date1 {
+    font-size: 23px;
+  }
+  .time .ed .two {
+    margin-left: -10px;
+  }
+  .time .ed .two .exam2 {
+    font-size: 18px;
+  }
+  .time .ed .two .date2 {
+    font-size: 23px;
+  }
+}
+
+.time .ed span {
   margin-left: 45px;
   font-size: 21px;
 }
 
-.time .exam-date span.vertical-line {
+.time .ed span.vertical-line {
   border-left: 1px solid white;
   border-bottom-style: solid;
 }
 
-.time .exam-date span.date1 {
+@media only screen and (max-width: 480px) {
+  .time .ed span.vertical-line {
+    display: none;
+  }
+}
+
+.time .ed span.date1 {
   font-size: 26px;
 }
 
@@ -1081,11 +1606,24 @@
   padding-right: 19%;
 }
 
+@media only screen and (max-width: 480px) {
+  .certification .dsa-color {
+    padding-left: 15%;
+    padding-right: 13%;
+  }
+}
+
 .certification .dsa-color h1 {
   text-align: center;
   font-weight: unset;
   font-size: 49px;
   padding-bottom: 33px;
+}
+
+@media only screen and (max-width: 480px) {
+  .certification .dsa-color h1 {
+    font-size: 42px;
+  }
 }
 
 .certification .dsa-color p {
@@ -1136,9 +1674,25 @@
   padding-top: 50px;
 }
 
+@media only screen and (max-width: 480px) {
+  .footer .l-footer .l-nav {
+    display: block;
+    padding-top: 77px;
+    padding-bottom: 30px;
+  }
+}
+
 .footer .l-footer .l-nav a {
   margin-right: 40px;
   font-size: 17px;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer .l-footer .l-nav a {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
 }
 
 .footer .l-footer .l-nav a .hr-bar {
@@ -1148,8 +1702,22 @@
   margin-top: 5px;
 }
 
+@media only screen and (max-width: 480px) {
+  .footer .l-footer .l-nav a .hr-bar {
+    display: none;
+  }
+}
+
 .footer .l-footer .l-nav a b {
   margin-right: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer .l-footer .l-nav a b {
+    margin-left: -26px;
+    position: absolute;
+    margin-top: -38px;
+  }
 }
 
 .footer .l-footer .foo {
@@ -1163,9 +1731,22 @@
   padding-bottom: 50px;
 }
 
+@media only screen and (max-width: 480px) {
+  .footer .l-footer .foo .codechef {
+    margin-left: 37%;
+  }
+}
+
 .footer .l-footer .foo .codechef a {
   margin-right: 30px;
   font-size: 17px;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer .l-footer .foo .codechef a {
+    display: block;
+    padding-top: 20px;
+  }
 }
 
 .footer .l-footer .foo .codechef .cc img {
@@ -1173,8 +1754,26 @@
   margin-right: 15px;
 }
 
+@media only screen and (max-width: 480px) {
+  .footer .l-footer .foo .payment-method {
+    margin-top: 77%;
+    margin-left: -140px;
+    line-height: 45px;
+    font-size: 20px;
+  }
+}
+
 .footer .l-footer .foo .payment-method .amex {
   margin-left: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer .l-footer .foo .payment-method .amex {
+    margin-left: -18px;
+  }
+  .footer .l-footer .foo .payment-method .amex img {
+    width: 72%;
+  }
 }
 
 .footer .last-dot {
@@ -1201,6 +1800,13 @@
 
 .footer .last-dot .grey {
   background-color: #C4C3C3;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer .last-dot {
+    margin-left: 43%;
+    margin-top: -250px;
+  }
 }
 
 .footer .last-dot span.dot2 {

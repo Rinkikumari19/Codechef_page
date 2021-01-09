@@ -2,16 +2,28 @@
 
 .testimonials{
     background-color: rgb(246, 244, 244);
+   
     .test-heading{
 
         @include marginAuto();
+        @media #{$mediaQuary-phone}{
+            padding-right: 77px;
+        }
         h2{
             padding-top: 10%;
             @include CenterH1();
+            @media #{$mediaQuary-phone}{
+                text-align: left;
+                font-size: 45px;
+            }
         }
         p{
             @include para();
             text-align: center;
+            @media #{$mediaQuary-phone}{
+                text-align: left;
+                font-size: 25px;
+            }
         }   
     }
     .ccdsap{
@@ -23,13 +35,20 @@
         justify-content: space-between;
         overflow: hidden;
         padding-top: 40px;
+       
+        
         // height: 600px;
+       
         .ls-card{
+            
             opacity: 0.49;
             background-color: white;
             height: 75%;
             width: 203px;
             margin-top: 40px;
+            @media #{$mediaQuary-phone}{
+                display: none;
+            }
 
             h4{
                 font-size: 23px;
@@ -60,6 +79,9 @@
             }
         }
         .arrow-l{
+            @media #{$mediaQuary-phone}{
+                display: none;
+            }
             margin-top: 10%;
             .mob_l_arrow{
                 display: none;
@@ -74,16 +96,34 @@
             height: 440px;
             box-shadow: 3px 17px 12px -22px;
             display: flex;
+            
+            @media #{$mediaQuary-phone}{
+                width:100%;
+                height: 600px;
+                padding-bottom: 50px;
+            }
             .content{
                 .mid-cont{
                     letter-spacing: 1.1px;
                     line-height: 35px;
                     padding: 50px 60px 0px 10px;
                     font-size: 133%;
+                    @media #{$mediaQuary-phone}{
+                        padding: 48px 17px 0px 0px;
+                    }
+                }
+                .intro{
+                    @media #{$mediaQuary-phone}{
+                        padding-left: 10px;
+                    }
                 }
                 h3{
                     font-size: 22px;
                     padding-left: 47px;
+                    @media #{$mediaQuary-phone}{
+                        padding-top: 40px;
+                        font-size: 26px;
+                    }
                 }
                 p{
                     @include para();
@@ -94,9 +134,17 @@
                 background-color: rgb(228, 225, 225);
                 width: 18%;
                 height: 440px;
+                @media #{$mediaQuary-phone}{
+                    height: 650px;
+                    width: 23%;
+                }
                 img{
                     margin-top: 184px;
                     margin-left: 63px;
+                    @media #{$mediaQuary-phone}{
+                        margin-top: 415px;
+                        margin-left: 30px;
+                    }
                 }
             }
             .double-quote{
@@ -104,12 +152,18 @@
                     position: absolute;
                     margin-left: -35.5%;
                     margin-top: 41px;
+                    @media #{$mediaQuary-phone}{
+                        margin-left: -77%;
+                    }
                 }
             }
             .line{
                 width: 85%;
                 margin-left: 45px;
                 margin-top: -23px;
+                @media #{$mediaQuary-phone}{
+                    width: 69%;
+                }
             }
             p em{
                 margin-top: -25px;
@@ -120,6 +174,12 @@
                 margin-top: 345px;
                 position: absolute;
                 @include colous();
+                @media #{$mediaQuary-phone}{
+                    margin-left: 34%;
+                    margin-top: 560px;
+                }
+                    
+                
                 span.dot1 {
                     height: 13px;
                     width: 13px;
@@ -131,11 +191,17 @@
         }
         .arrow-r{
             margin-top: 10%;
+            @media #{$mediaQuary-phone}{
+                display: none;
+            }
             .mob_r_arrow{
                 display: none;
             }
         }
         .right-card{
+            @media #{$mediaQuary-phone}{
+                display: none;
+            }
             height: 356px;
             background-color: white;
             width: 16%;

@@ -13,12 +13,9 @@
         justify-content: space-between;
         .left-side{
             display: flex;
-            
             img,span{
                 margin-right: 20px;
-            
-            }  
-            
+            }   
         }
         .right-navbar{
             button{
@@ -32,7 +29,9 @@
                 
                 } 
             }
+            
         }
+
     }
 }
 
@@ -46,8 +45,12 @@
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
+    @media #{$mediaQuary-phone}{
+        display: block;
+    }
     .right-nav2{
         display: flex;
+       
         .cc-img{
             margin-right: 15px;
             img{
@@ -67,8 +70,12 @@
     }
     .left-nav2{
         display: flex;
+        @media #{$mediaQuary-phone}{
+            padding-bottom: 30px;
+        }
         a{
-            margin-left: 30px;
+            margin-right: 30px;
+            
             font-size: 19px;
             .hr-bar{
                 @include RedLine();

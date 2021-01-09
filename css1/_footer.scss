@@ -23,14 +23,34 @@
         .l-nav{
             display: flex;
             padding-top: 50px;
+
+            @media #{$mediaQuary-phone}{
+                display: block;
+                padding-top: 77px;
+                padding-bottom: 30px;
+            }
             a{
                 margin-right: 40px;
                 font-size: 17px;
+                @media #{$mediaQuary-phone}{
+                    display: block;
+                    text-align: center;
+                    padding-top: 20px;
+                    
+                }
                 .hr-bar{
                     @include RedLine();
+                    @media #{$mediaQuary-phone}{
+                        display: none;
+                    }
                 }
                 b{
                     margin-right: 30px;
+                    @media #{$mediaQuary-phone} {
+                        margin-left: -26px;
+                        position: absolute;
+                        margin-top: -38px;
+                    }
                 }
             }
         }
@@ -39,20 +59,46 @@
             justify-content: space-between;
             padding-top: 30px;
             padding-bottom: 50px;
+            
             .codechef{
+                @media #{$mediaQuary-phone}{
+                    margin-left: 37%;
+                   
+                }
                 a{
                     margin-right: 30px;
+                    @media #{$mediaQuary-phone}{
+                        display: block;
+                        padding-top: 20px;
+
+                    }
                     
                     font-size: 17px; 
                 }
                 .cc img{
                     height: 13.8px;
                     margin-right: 15px;
+                    
                 }
             }
             .payment-method{
+                @media #{$mediaQuary-phone}{
+                    margin-top: 77%;
+                    margin-left: -140px;
+                    line-height: 45px;
+                    font-size: 20px;
+
+                }
                 .amex{
                     margin-left: 30px;
+                    @media #{$mediaQuary-phone}{
+                        margin-left: -18px;
+                        img{
+                            width: 72%;
+                        }
+                    
+                        
+                    }
                 }
             }
         }
@@ -63,6 +109,10 @@
         margin-top: -17px;
         position: absolute;
         @include colous();
+        @media #{$mediaQuary-phone} {
+            margin-left: 43%;
+            margin-top: -250px;
+        }
         span.dot2 {
             height: 5.6px;
             width: 6px;

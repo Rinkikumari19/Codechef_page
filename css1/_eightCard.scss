@@ -8,11 +8,17 @@
     padding-bottom: 50px;
     h1{
         @include CenterH1();
+        @media #{$mediaQuary-phone}{
+            text-align: left;
+        }
     }
     .lorem{
         @include para();
         text-align: center;
         margin-top: -25px;
+        @media #{$mediaQuary-phone}{
+            display: none;
+        }
     }
     .all-posters{
         .neha-img{
@@ -24,6 +30,9 @@
             padding: 50px 50px 20px 54px;
             margin-left: 46px;
             margin-bottom: 63px;
+            @media #{$mediaQuary-phone}{
+                width: 40%;
+            }
             img{
                 width: 76%;
             }
