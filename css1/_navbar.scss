@@ -6,18 +6,32 @@
     padding-bottom: 20px;
     @media #{$mediaQuary-phone} {
         padding-left: 20px;
-        padding-right: 20px;
+        padding-right: 40px;
+        margin-top: 20px;
     }
     .left-navbar{
         display: flex;
         justify-content: space-between;
+        @media #{$mediaQuary-phone} {
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+        }
         .left-side{
             display: flex;
+            @media #{$mediaQuary-phone} {
+                padding-bottom: 20px;
+            }
             img,span{
                 margin-right: 20px;
+                @media #{$mediaQuary-phone}{
+                    margin-right: 15px;
+                }
             }   
         }
         .right-navbar{
+            @media #{$mediaQuary-phone}{
+                padding-right: 20px;
+            }
             button{
                 padding: 10px 25px 10px 30px;
                 border: 1px solid red;
