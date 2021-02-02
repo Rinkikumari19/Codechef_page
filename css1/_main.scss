@@ -68,74 +68,68 @@
 
 
 .dsa-page{
-    @include marginAuto();
-    padding-left: 14%;
-    h1{
-        font-size: 50px;
-        padding-bottom: 26px;
-        font-weight: inherit;
-        word-spacing: -1px;
-        padding-top: 12%;
-        @media #{$mediaQuary-phone}{
-            font-size: 40px;
+    .dsa-heading{
+       
+        @include marginAuto();
+        padding-left: 14%;
+        @media #{$mediaQuary-phone} {
+            padding-right: 65px; 
+        }
+        h1{
+            font-size: 50px;
+            padding-bottom: 26px;
+            font-weight: inherit;
+            word-spacing: -1px;
+            padding-top: 12%;
+            @media #{$mediaQuary-phone}{
+                font-size: 40px;
+            }
+        }
+        p{
+            font-size: 26px;
+            letter-spacing: 1px;
+            line-height: 43px;
+            padding-bottom: 60px;
+        }
+        button{
+            @include button();
         }
     }
-    p{
-        font-size: 26px;
-        letter-spacing: 1px;
-        line-height: 43px;
-        padding-bottom: 60px;
-    }
-    button{
-        @include button();
-    }
-    img{
-        margin-left: 80%;
-        @media #{$mediaQuary-phone}{
-            margin-left: 63%;
-        }
+    .test-img{
+        display: flex;
+        flex-direction: row-reverse;
+        @include marginAuto();
+        padding-right: 0px;
     }
     
-   
 }
 
 .time{
-    background-color:#2F2F2F ;
+    background-color:#2F2F2F;
     .ed{
         @include marginAuto();
         color: white;
         padding-top: 30px;
         padding-bottom: 30px;
-        padding-left: 14%;
+        padding-left: 25%;
+        padding-right: 30%;
+        justify-content: space-between;
         display: flex;
+        // justify-content: center;
+       
+        
         @media #{$mediaQuary-phone}{
-            padding-right: 1px;
-            padding-left: 1px;
-            display: inline;
-            line-height: 49px;
-            .one{
-                margin-left: -10px;
-                .exam1{
-                    font-size: 18px;
-                    margin-right: 24%;
-                }
-                .date1{
-                    font-size: 23px;
-                }
-            }
-            .two{
-                margin-left: -10px;
-                .exam2{
-                    font-size: 18px;
-                }
-                .date2{
-                    font-size: 23px;
-                }
-            }
+            padding-right: 25px;
+            padding-left: 32px;
+            line-height: 50px;
+            flex-wrap: wrap;
         }
+
         span{
-            margin-left: 45px;
             font-size: 21px;
+            @media #{$mediaQuary-phone}{
+                font-size: 18px;
+            }
         }
        
         span.vertical-line{
@@ -145,8 +139,11 @@
                 display: none;
             }
         }
-        span.date1{
+        span.date1, span.date2{
             font-size: 26px;
+            @media #{$mediaQuary-phone}{
+                font-size: 23px;
+            }
         }
     }
    

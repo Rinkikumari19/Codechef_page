@@ -2,12 +2,12 @@
 
 .topnav{
     @include marginAuto();
-    margin-top: 30px;
+    padding-top: 30px;
     padding-bottom: 20px;
     @media #{$mediaQuary-phone} {
         padding-left: 20px;
         padding-right: 40px;
-        margin-top: 20px;
+        padding-top: 20px;
     }
     .left-navbar{
         display: flex;
@@ -18,20 +18,24 @@
         }
         .left-side{
             display: flex;
+            justify-content: space-between;
             @media #{$mediaQuary-phone} {
                 padding-bottom: 20px;
             }
-            img,span{
-                margin-right: 20px;
+            .mailBox, .phoneBox{
                 @media #{$mediaQuary-phone}{
-                    margin-right: 15px;
+                    display: flex;
                 }
-            }   
+                
+                img,span{
+                    margin-right: 20px;
+                   
+                }
+            }
+              
         }
         .right-navbar{
-            @media #{$mediaQuary-phone}{
-                padding-right: 20px;
-            }
+           
             button{
                 padding: 10px 25px 10px 30px;
                 border: 1px solid red;
@@ -56,11 +60,12 @@
 
 .topnav2{
     @include marginAuto();
-    margin-top: 30px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     @media #{$mediaQuary-phone}{
-        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     .right-nav2{
         display: flex;
@@ -84,11 +89,12 @@
     }
     .left-nav2{
         display: flex;
+        justify-content: space-between;
         @media #{$mediaQuary-phone}{
             padding-bottom: 30px;
         }
         a{
-            margin-right: 30px;
+            // margin-right: 30px;
             
             font-size: 19px;
             .hr-bar{
